@@ -69,4 +69,4 @@ Videos:
 * [juneojs](https://github.com/Juneo-io/juneojs)
 * [juneogo-binaries](https://github.com/Juneo-io/juneogo-binaries)
 * [Avalanche Docs](https://docs.avax.network/)
-* Trouble following these steps? Contact us
+* Trouble following these steps? Contact us.
