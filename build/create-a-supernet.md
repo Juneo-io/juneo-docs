@@ -9,7 +9,9 @@ A prerequisite for this tutorial is that you have a running node that is validat
 We will be using example code found in the [juneojs-examples ](https://github.com/Juneo-io/juneojs-examples)repository to deploy our Supernet (which uses the library [juneojs](https://www.npmjs.com/package/juneojs)).
 
 {% hint style="info" %}
-Please make sure that you have [Node.JS](https://nodejs.org/en) installed on your system, along with the npm package[ ts-node](https://www.npmjs.com/package/ts-node) (which will be used to execute the sample code provided in JuneoJS).
+We recommend using JuneoJS on a system where you have access to a code editor.\
+\
+Please make sure that you have [Node.JS](https://nodejs.org/en) installed on this system, along with the npm package[ ts-node](https://www.npmjs.com/package/ts-node), which will be used to execute the sample code provided in JuneoJS).
 {% endhint %}
 
 ### Create a Supernet
