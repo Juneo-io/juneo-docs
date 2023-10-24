@@ -114,7 +114,15 @@ After updating this file, please re-start your node from the home directory:
 ./juneogo --config-file="./config.json"
 ```
 
-After you have performed this step, please submit the following Chain and Supernet information to us:
+
+
+After this, the next step is to submit your Supernet and Blockchain data to us for indexation.
+
+{% hint style="info" %}
+Before proceeding with the next step, please perform a few transactions on your chain using MetaMask, such as sending some tokens to any address.
+{% endhint %}
+
+Please submit your Supernet and Blockchain information to us in the following format:
 
 <pre><code><strong>Supernet
 </strong><strong>- Name
@@ -128,7 +136,9 @@ After you have performed this step, please submit the following Chain and Supern
 - Decimals 
 - Host (http://xxx.xxx.xxx.xxx:9650 or with domain name) 
 - rpc (http://xxx.xxx.xxx.xxx:9650/ext/bc/id/rpc)
-- Logo (min 273x273 or bigger in .png format. The width:height ratio should be 1:1)
+- Logo (min 273x273 or greater.
+        In .png format. 
+        The width:height ratio should be 1:1)
 - id
 </code></pre>
 
