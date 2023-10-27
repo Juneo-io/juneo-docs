@@ -34,6 +34,10 @@ const genesisData: string = new SupernetEVMGenesis(chainId, [
     ]).generate() // address, and amount of native token to mint to this address on your chain
 ```
 
+{% hint style="danger" %}
+Never use the same **chainId** value more than once- this can cause unexpected errors for your Supernet chains in the future.
+{% endhint %}
+
 {% hint style="info" %}
 Please make sure to specify the `chainId` variable to a value that is not already taken by another chain.
 
