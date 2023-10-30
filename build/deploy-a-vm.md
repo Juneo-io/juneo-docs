@@ -29,9 +29,7 @@ const chainName: string = 'Chain A'
 
 const chainId: number = 330333
 
-const genesisData: string = new SupernetEVMGenesis(chainId, [
-        new EVMAllocation('0x44542FD7C3F096aE54Cc07833b1C0Dcf68B7790C', BigInt("1000000000000000000000000"))
-    ]).generate() // address, and amount of native token to mint to this address on your chain
+const genesisMintAddress: string = '0x44542FD7C3F096aE54Cc07833b1C0Dcf68B7790C' // your wallet address here
 ```
 
 {% hint style="danger" %}
