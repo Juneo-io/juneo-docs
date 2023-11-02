@@ -30,7 +30,7 @@ An archive node has database pruning disabled for certain chains it is validatin
 A node can be several types simultaneously - an **Archive Node** for one chain it is validating, but a **Validator node** for another chain.
 {% endhint %}
 
-For more details about the Network Architecture, see the [Juneo Litepaper](https://juneo.com/pdf/JUNEO%20Litepaper%20\(vs%201.07\).pdf) or visit [juneo.com](https://juneo.com/).
+For more details about the Network Architecture, see the [Juneo Litepaper](https://juneo.com/litepaper) or visit [juneo.com](https://juneo.com/).
 
 
 
