@@ -152,12 +152,12 @@ Example:
 
 <pre><code>Supernet
 - Name: Supernet ABC
-- Description: This is a supernet created by JUNEO
+- Description: This is a supernet created by
 - id: ZxTjijy4iNthRzuFFzMH5RS2BgJemYxwgZbzqzEhZJWqSnwhP
 
 Blockchain
 - Name: Chain ABC
-- Description: This is a Blockchain developed by JUNEO
+- Description: This is a Blockchain developed
 <strong>- Currency: ABC22
 </strong>- Decimals: 18
 - Host: http://XXX.XXX.XXX.XXX:9650 
