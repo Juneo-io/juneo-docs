@@ -157,7 +157,7 @@ Example:
 
 Blockchain
 - Name: Chain ABC
-- Description: This is a Blockchain developed
+- Description: This is a Blockchain developed by
 <strong>- Currency: ABC22
 </strong>- Decimals: 18
 - Host: http://XXX.XXX.XXX.XXX:9650 
