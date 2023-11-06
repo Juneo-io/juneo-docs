@@ -97,6 +97,10 @@ Example response:
 
 Next, copy the value for the nodeID parameter and log into [mcnwallet.io](https://www.mcnwallet.io/).
 
+{% hint style="info" %}
+For non-advanced users, we recommend MNEMONIC usage for access to the the graphic interface.
+{% endhint %}
+
 Please make sure that you have a balance of at least 1 JUNE in the P-chain, and additional JUNE for transaction costs. For this purpose, you may perform Cross-chain transactions to transfer JUNE from any of the other two chains to the P-chain in the **Cross-chain** page.
 
 In the mcnwallet, navigate to the **Stake** page, and click on the **Validate** card. We shall enter our nodeID, set the staking amount to 1 JUNE, and the validation period to 15 days.

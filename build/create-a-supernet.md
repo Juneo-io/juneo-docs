@@ -74,7 +74,15 @@ This is the id of the transaction that has created your Supernet, and is the id 
 
 ### Add a validator to the Supernet
 
-The next step is to perform the addSupernetValidator transaction. Please open the file `./src/supernet/addSupernetValidator.ts` in your code editor, and update the following variables to contain the correct values. Example:
+The next step is to perform the addSupernetValidator transaction.&#x20;
+
+{% hint style="info" %}
+It is important to perform this step.
+
+If your Supernet has no validators, all blockchains in that Supernet will be inactive.
+{% endhint %}
+
+Please open the file `./src/supernet/addSupernetValidator.ts` in your code editor, and update the following variables to contain the correct values. Example:
 
 ```typescript
 const nodeId: string = 'NodeID-B2GHMQ8GF6FyrvmPUX6miaGeuVLH9UwHr'
