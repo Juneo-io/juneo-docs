@@ -96,23 +96,15 @@ The variable **durationInDays** must be less than the amount of remaining days y
 If your node has 5 days (or a little over 4 days) left of Primary Network validation, you must set **durationInDays** to 4 or less.
 {% endhint %}
 
-{% hint style="info" %}
-If **your node** is the only node validating your Supernet - once your node stops validating it, all chains within it will not be able to process transactions.
-
-You would have to re-perform the **Add Supernet Validator** transaction for your Supernet's chains to process transactions again.
-{% endhint %}
-
 Then, execute this file:
 
 ```sh
 npx ts-node ./src/supernet/addSupernetValidator.ts
 ```
 
-This will add our node as a validator for our supernet. However, we need to perform an additional step before our node can begin validating our Supernet.&#x20;
+This will add our node as a validator for our supernet. However, we need to perform an additional step before our node can begin validating our Supernet.
 
 Please open the command line on the server running your node, stop the node, and create a file titled `config.json` in the home directory.&#x20;
-
-
 
 ```
 cd ~
@@ -135,3 +127,9 @@ After saving the file, you may run your node again with the following command:
 ```
 
 Your node is now tracking the Supernet you have just created. From here, we may proceed to the next step: Deploy a VM.
+
+{% hint style="info" %}
+If **your node** is the only node validating your Supernet - once your node stops validating it, all chains within it will not be able to process transactions.
+
+You would have to re-perform the **Add Supernet Validator** transaction for your Supernet's chains to process transactions again.
+{% endhint %}
