@@ -39,16 +39,14 @@ The first step is to transfer the required binaries to the **home directory** of
 
 1. juneogo
 2. jevm
-
-{% hint style="info" %}
-The Supernet binary, _srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e_, is not required for this step. It will be required if you wish to deploy a VM on your Supernet.
-{% endhint %}
+3. srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
 
 After moving these binaries to the server, we next step is to allow execution permissions for them with the following commands:
 
 ```bash
 chmod +x juneogo
 chmod +x jevm
+chmod +x srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
 ```
 
 Next, the directory `.juneogo/plugins` should be created in the home directory of our server,  and the _jevm_ binary should be placed there:
@@ -56,6 +54,7 @@ Next, the directory `.juneogo/plugins` should be created in the home directory o
 ```bash
 mkdir -p .juneogo/plugins
 mv jevm .juneogo/plugins
+mv srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e .juneogo/plugins
 ```
 
 The structure of your home directory should resemble the following:
@@ -65,6 +64,7 @@ The structure of your home directory should resemble the following:
 ├── .juneogo/
 │   ├── plugins/
 │   │   └── jevm
+│   │   └── srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
 ```
 
 {% hint style="info" %}
