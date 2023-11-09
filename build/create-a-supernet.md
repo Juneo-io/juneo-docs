@@ -77,9 +77,7 @@ This is the id of the transaction that has created your Supernet, and is the id 
 The next step is to perform the addSupernetValidator transaction.&#x20;
 
 {% hint style="info" %}
-It is important to perform this step.
-
-If your Supernet has no validators, all blockchains in that Supernet will be inactive.
+If your Supernet has no validators, all blockchains in that Supernet will be inactive and will not be able to process transactions.
 {% endhint %}
 
 Please open the file `./src/supernet/addSupernetValidator.ts` in your code editor, and update the following variables to contain the correct values. Example:
@@ -96,6 +94,12 @@ We will keep the **durationInDays** variable the same. However, you may update i
 The variable **durationInDays** must be less than the amount of remaining days your node will be validating the Primary network.
 
 If your node has 5 days (or a little over 4 days) left of Primary Network validation, you must set **durationInDays** to 4 or less.
+{% endhint %}
+
+{% hint style="info" %}
+If **your node** is the only node validating your Supernet - once your node stops validating it, all chains within it will not be able to process transactions.
+
+You would have to re-perform the **Add Supernet Validator** transaction for your Supernet's chains to process transactions again.
 {% endhint %}
 
 Then, execute this file:
