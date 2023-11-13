@@ -18,7 +18,7 @@ For Supernet indexation on [mcnscan.io](https://mcnscan.io), please contact us.
 
 #### 1. Connect a node
 
-Documentation: [Connect a node](broken-reference)
+Documentation: [Connect a node](../build/set-up-and-connect-a-node-manually.md)
 
 Videos:
 
