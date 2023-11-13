@@ -83,7 +83,7 @@ This will start fetching blocks and bootstrapping your node.&#x20;
 Please make sure this process keeps running in the background. If the execution of the juneogo executable stops, your node will be inactive.
 {% endhint %}
 
-You may check if the node has is boostrapped with the following call:
+You may check if the node has boostrapped with the following call:
 
 ```sh
 curl -X POST --data '{
