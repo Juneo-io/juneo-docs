@@ -15,7 +15,8 @@
 
 ## Build
 
-* [Set up and Connect a node](build/set-up-and-connect-a-node.md)
+* [Set up and Connect a node manually](build/set-up-and-connect-a-node.md)
+* [Set up and Connect a node using the Install Script](build/set-up-and-connect-a-node-1.md)
 * [Create a Supernet](build/create-a-supernet.md)
 * [Deploy a VM](build/deploy-a-vm.md)
 
