@@ -18,7 +18,7 @@ For Supernet indexation on [mcnscan.io](https://mcnscan.io), please contact us.
 
 #### 1. Connect a node
 
-Documentation: [Connect a node](../build/set-up-and-connect-a-node.md)
+Documentation: [Connect a node](broken-reference)
 
 Videos:
 
@@ -55,12 +55,10 @@ Documentation: [Deploy a VM](../build/deploy-a-vm.md)
 
 Videos:
 
-* 4.1  [Deploy a Supernet EVM](https://drive.google.com/file/d/1Vabq9\_LbIxod7Si-xoBuUKte-oWHYpa-/view?usp=drive\_link)
+* 4.1 [Deploy a Supernet EVM](https://drive.google.com/file/d/1Vabq9\_LbIxod7Si-xoBuUKte-oWHYpa-/view?usp=drive\_link)
 * 4.2 [Adding your chain to MetaMask part 1](https://drive.google.com/file/d/1CizBJm\_t37fHfJs8yycNUhBd4ZicZxu4/view?usp=drive\_link)
 * 4.3 [Adding your chain to MetaMask part 2](https://drive.google.com/file/d/19v-olLU8gtA4T1tR96qtPqIOcD8mVvc-/view?usp=drive\_link)
 * 4.4 [Performing a transaction using MetaMask](https://drive.google.com/file/d/1piNHiz4wOlKLLKnjABYAhQ1eiGBoojTW/view?usp=drive\_link)
-
-
 
 ***
 

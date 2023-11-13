@@ -65,7 +65,7 @@ Once executed, this command will create  `juneo_backup` directory in you home di
 
 In order to restore a node from a backup, we need to do the reverse: we need to place `staker.key`, `staker.crt` and `signer.key` we previously backed up to the working direcotry of our node.
 
-First we need to [run a Juneo node](../build/set-up-and-connect-a-node.md), which will create a new NodeID, which we will replace. After the node has successfully installed, we should stop it.
+First we need to [run a Juneo node](broken-reference), which will create a new NodeID, which we will replace. After the node has successfully installed, we should stop it.
 
 #### To Local Node
 

@@ -1,6 +1,6 @@
-# Set up and Connect a node using the Install Script
+# Set up and Connect a node manually
 
-How to set up and connect a node to the Socotra Testnet v1 network using the installation script.
+How to set up and connect a node to the Socotra Testnet v1 network manually.
 
 ### Requirements
 
@@ -27,30 +27,63 @@ If you're running a node on a computer that is on a residential internet connect
 
 ### Setup and Connect a node to the Socotra Testnet v1[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
-The install script which will be used to configure and run your node can be found [here](https://github.com/Juneo-io/juneogo-binaries/blob/main/simple\_setup.sh).
+For this step, you will have to download the binary files found [here](https://github.com/Juneo-io/juneogo-binaries). If you have [git](https://git-scm.com/) installed on your system, please execute the following in your command line:
 
-This script is intended as a convenient way to configure JuneoGo and run it as a service. This script is not recommended for production environments. Before running this script, make yourself familiar with its contents as well as potential risks and limitations.
+`git clone https://github.com/Juneo-io/juneogo-binaries`
 
-{% hint style="info" %}
-This install script assumes:
+Your binaries will be found in the `juneogo-binaries` folder on your system.
 
-* JuneoGo is not running and not already installed as a service
-* You have Git installed on your system
-{% endhint %}
+#### Configuring the initial binary files
 
-{% hint style="info" %}
-If you are using a different distribution of Linux other than Ubuntu, this script may not work as it assumes that `systemd` is used to run system services. It will likely work on systems that use `systemd` to run services, but it has been developed and tested on Ubuntu.
-{% endhint %}
+The first step is to transfer the required binaries to the **home directory** of the server on which you wish to run your node. These binaries are:
 
-To run the script, please execute the following command:
+1. juneogo
+2. jevm
+3. srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
+
+After moving these binaries to the server, we next step is to allow execution permissions for them with the following commands:
 
 ```bash
-wget -O - https://raw.githubusercontent.com/Juneo-io/juneogo-binaries/main/simple_setup.sh | bash
+chmod +x juneogo
+chmod +x jevm
+chmod +x srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
 ```
 
-This will clone the juneogo-binaries repository from github, configure all necessary files, and create a service which will run JuneoGo and start bootstrapping your node.
+Next, the directory `.juneogo/plugins` should be created in the home directory of our server,  and the _jevm_ binary should be placed there:
 
-You may check if your node has boostrapped with the following call:
+```bash
+mkdir -p .juneogo/plugins
+mv jevm .juneogo/plugins
+mv srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e .juneogo/plugins
+```
+
+The structure of your home directory should resemble the following:
+
+```bash
+├── juneogo
+├── .juneogo/
+│   ├── plugins/
+│   │   └── jevm
+│   │   └── srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
+```
+
+{% hint style="info" %}
+If these files are structured differenty than above, you will not be able to connect your node.
+{% endhint %}
+
+You may now connect the node to the Socotra network by executing the juneogo binary with the following command:
+
+```sh
+./juneogo
+```
+
+This will start fetching blocks and bootstrapping your node.&#x20;
+
+{% hint style="warning" %}
+Please make sure this process keeps running in the background. If the execution of the juneogo executable stops, your node will be inactive.
+{% endhint %}
+
+You may check if the node has boostrapped with the following call:
 
 ```sh
 curl -X POST --data '{
