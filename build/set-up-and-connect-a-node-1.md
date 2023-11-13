@@ -35,7 +35,6 @@ This script is intended as a convenient way to configure JuneoGo and run it as a
 This install script assumes:
 
 * JuneoGo is not running and not already installed as a service
-* User running the script has superuser privileges (can run sudo)
 * You have Git installed on your system
 {% endhint %}
 
