@@ -36,18 +36,18 @@ A node cannot be a validator on a Supernet longer than it is a validator on the 
 
 At least 5 Mbps bandwidth (both upload and download) is required to run a validator node.
 
-The node needs to accept connections from the Internet on the network ports `9650` and `9651`. To enable ports access on macOS, use Apple [documentation](https://support.apple.com/guide/mac-help/change-firewall-settings-on-mac-mh11783/mac). On Linux, use `ufw` firewall:
+The node needs to accept connections from the Internet on the network ports `9651` (and optionally port `9650` to allow remote RPC calls). To enable port access on macOS, use Apple [documentation](https://support.apple.com/guide/mac-help/change-firewall-settings-on-mac-mh11783/mac). On Linux, use `ufw` firewall:
 
 ```bash
 sudo ufw allow 9650
-sudo ufw allow 9651
+sudo ufw allow 9651 
 ```
 
 {% hint style="warning" %}
 Running your node behind NAT is not recommended. Home installation is not recommended except for testing purposes.
 {% endhint %}
 
-If you're running a node on a home computer, it's most likely that you have a dynamic IP. You will need to either ask your ISP to assign a permanent public address, or set up port forwarding of ports `9650` and `9651` from the internet to your node computer. Please reference your router documentation.
+If you're running a node on a home computer, it's most likely that you have a dynamic IP. You will need to either ask your ISP to assign a permanent public address, or set up port forwarding of port `9651` (and optionally `9650`) from the internet to your node computer. Please reference your router documentation.
 
 An active node maintains thousands of live TCP connections, keep this in mind when choosing the router for such installation. A cheap router can cause network problems and make your node considered offline because of poor connection. Being online less than 80% of staking period means losing your rewards.
 

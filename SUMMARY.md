@@ -15,8 +15,10 @@
 
 ## Build
 
+* [Node Requirements](build/node-requirements.md)
 * [Set up and Connect a node manually](build/set-up-and-connect-a-node-manually.md)
 * [Set up and Connect a node using the Install Script](build/set-up-and-connect-a-node.md)
+* [Set Up and Connect a node with Docker](build/set-up-and-connect-a-node-with-docker.md)
 * [Create a Supernet](build/create-a-supernet.md)
 * [Deploy a VM](build/deploy-a-vm.md)
 
