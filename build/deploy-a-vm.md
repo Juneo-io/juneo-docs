@@ -58,7 +58,7 @@ Your command line output should resemble the following, indicating that your VM 
 
 ### Indexation of your chain on the explorer
 
-For your chain to be eligible for indexation on the explorer, you will need to disable pruning for your newly created chain, allowing archive node functionality. This is done by creating a `config.json` file on your JUNEO validator node in the location `~/.juneogo/configs/chains/chainId.`
+For your chain to be eligible for indexation on the explorer, you will need to disable pruning for your newly created chain, allowing archive node functionality. This is done by creating a `config.json` file on your JUNEO validator node in the location `.juneogo/configs/chains/chainId.`
 
 For a chain which has the id of `2LxhUB7z7yxvBkHiiwp8MrALgy7rka3y6MriL2JAeX858wUK5D`, you would execute the following commands from the home directory:
 
@@ -88,12 +88,7 @@ Next, paste the following inside the `config.json` file:
 
 
 
-In addition to this, it is required that your node accepts API calls from remote machines. For this, we have to make updates to the `config.json` file found in the home directory:
-
-```bash
-cd ~
-nano config.json
-```
+In addition to this, it is required that your node accepts API calls from remote machines. For this, we have to make updates to the `config.json` file our node is using.
 
 This file should be updated to include the config flag `http-host`, and its value should be set to your public IP address. Example:
 
@@ -110,15 +105,11 @@ Following the previous steps from the documentation, this `config.json` file sho
 }
 ```
 
-After updating this file, please re-start your node from the home directory:
-
-```bash
-./juneogo --config-file="./config.json"
-```
+After updating this file, please re-start your node.&#x20;
 
 
 
-After this, the next step is to submit your Supernet and Blockchain data to us for indexation.
+The next step is to submit your Supernet and Blockchain data to us for indexation.
 
 {% hint style="info" %}
 Before proceeding with the next step, please perform a few transactions on your chain using MetaMask, such as sending some tokens to any address.

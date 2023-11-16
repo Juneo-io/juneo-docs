@@ -56,13 +56,13 @@ The next step is the Supernet creation. Please execute the following in the coma
 npx ts-node ./src/supernet/createSupernet.ts
 ```
 
-This will produce an output to the terminal containing your supernetID. Example: _ZxTjijy4iNthRzuFFzMH5RS2BgJemYxwgZbzqzEhZJWqSnwh._&#x20;
+This will produce an output to the terminal containing your supernetID. Example: _ZxTjijy4iNthRzuFFzMH5RS2BgJemYxwgZbzqzEhZJWqSnwh._
 
 This is the id of the transaction that has created your Supernet, and is the id of the Supernet as well. Please save it as we will needed in the following steps.
 
 ### Add a validator to the Supernet
 
-The next step is to perform the addSupernetValidator transaction.&#x20;
+The next step is to perform the addSupernetValidator transaction.
 
 {% hint style="info" %}
 If your Supernet has no validators, all blockchains in that Supernet will be inactive and will not be able to process transactions.
@@ -76,7 +76,7 @@ const supernetId: string = 'ZxTjijy4iNthRzuFFzMH5RS2BgJemYxwgZbzqzEhZJWqSnwhP'
 const durationInDays: number = 4 // number of days you will validate your Supernet
 ```
 
-We will keep the **durationInDays** variable the same. However, you may update it to a diffent value.&#x20;
+We will keep the **durationInDays** variable the same. However, you may update it to a diffent value.
 
 {% hint style="info" %}
 The variable **durationInDays** must be less than the amount of remaining days your node will be validating the Primary network.
@@ -90,17 +90,19 @@ Then, execute this file:
 npx ts-node ./src/supernet/addSupernetValidator.ts
 ```
 
-This will add our node as a validator for our supernet. However, we need to perform an additional step before our node can begin validating our Supernet.
+This will add our node as a validator for our supernet. However, we need to perform an additional step before our node can begin validating our Supernet. First, please stop your node.
 
-Please open the command line on the server running your node, stop the node, and create a file titled `config.json` in the home directory.&#x20;
 
-```
-cd ~
 
-nano config.json
-```
+Next, for users following the [manual ](set-up-and-connect-a-node-manually.md)or [install script](set-up-and-connect-a-node.md) guide for setting up juneogo: please create a file titled `config.json` in the home directory.&#x20;
 
-In it, please specify the Supernets you want your node to track (in this case, the Supernet you have just created). Example:
+For users who are running juneogo using [juneogo-docker](https://github.com/Juneo-io/juneogo-docker): your config file can be found in the `juneogo-docker/juneogo/.juneogo/config.json` directory.
+
+
+
+In your `config.json` file, please include the configuration flag `track-supernets,` specifying the Supernets you want your node to track (in this case, the Supernet you have just created).
+
+Example:
 
 ```json
 {
@@ -108,16 +110,24 @@ In it, please specify the Supernets you want your node to track (in this case, t
 }
 ```
 
-After saving the file, you may run your node again with the following command:
+After saving the file, you may run your node again.&#x20;
+
+For users following the [manual ](set-up-and-connect-a-node-manually.md)or [install script](set-up-and-connect-a-node.md) juneogo setup guide, please execute the following :
 
 ```bash
 ./juneogo --config-file="./config.json"
 ```
 
-Your node is now tracking the Supernet you have just created. From here, we may proceed to the next step: Deploy a VM.
+For users running juneogo using [juneogo-docker](https://github.com/Juneo-io/juneogo-docker), please re-start your node using docker compose.
+
+
+
+Your node is now tracking the Supernet you have just created.&#x20;
 
 {% hint style="info" %}
 If **your node** is the only node validating your Supernet - once your node stops validating it, all chains within it will not be able to process transactions.
 
 You would have to re-perform the **Add Supernet Validator** transaction for your Supernet's chains to process transactions again.
 {% endhint %}
+
+You may now proceed to the next step: [Deploy a VM](deploy-a-vm.md).
