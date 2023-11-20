@@ -90,18 +90,27 @@ Next, paste the following inside the `config.json` file:
 
 In addition to this, it is required that your node accepts API calls from remote machines. For this, we have to make updates to the `config.json` file our node is using.
 
-This file should be updated to include the config flag `http-host`, and its value should be set to your public IP address. Example:
+This file should include the `http-host` and `public-ip` config flags, and their value should be set to your public IP address. Example:
 
 ```json
 "http-host":"XXX:XXX:XXX:XXX"
+
+"public-ip":"XXX:XXX:XXX:XXX"
 ```
 
-Following the previous steps from the documentation, this `config.json` file should resemble the following format:
+{% hint style="info" %}
+If you are using [juneogo-docker](https://github.com/Juneo-io/juneogo-docker) to run your node, please only update the **`public-ip`** config flag with the value of your server's public ip address.
+
+The **`http-host`** flag should remain unchanged.
+{% endhint %}
+
+Following the previous steps from the documentation, this `config.json` file should include the following lines:
 
 ```json
 {
  "track-supernets":"ZxTjijy4iNthRzuFFzMH5RS2BgJemYxwgZbzqzEhZJWqSnwhP",
- "http-host":"XXX.XXX.XXX.XXX"
+ "http-host":"XXX.XXX.XXX.XXX",
+ "public-ip":"XXX.XXX.XXX.XXX"
 }
 ```
 
