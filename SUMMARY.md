@@ -24,6 +24,7 @@
 
 ## Maintain
 
+* [Node Monitoring](maintain/node-monitoring.md)
 * [Node Backup and Restore](maintain/node-backup-and-restore.md)
 
 ## Validate
