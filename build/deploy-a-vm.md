@@ -45,6 +45,10 @@ For **Socotra v2**, please use a random number from 200,000 - 299,999.
 For **Mainnet,** please use a number starting from 450,000.
 {% endhint %}
 
+{% hint style="info" %}
+Avoid assigning the`chainId` variable a number with repetative digits (such as 334455, 333444, 333333, 343434 or similar).
+{% endhint %}
+
 After this, execute this file in the command line using ts-node:
 
 ```bash
