@@ -153,6 +153,10 @@ Before continuing, please make sure that your node is not running while you are 
 
 The next step is to transfer your database backup to your node in the `.juneogo` directory.&#x20;
 
+{% hint style="info" %}
+Please make sure to transfer previously backed up configuration files for your chains, so that your node can run with the correct initial pruning parameters.
+{% endhint %}
+
 Next, we will rename the current database directory on your node (which you may remove later if the database restoration is successful):
 
 ```bash
