@@ -27,7 +27,7 @@ This folder contains a third file:
 
 In order to backup our node, all we need to do is bootstrap a new one which contains these three files in the `staking` directory. If we were to remove these files and restart our node, a new version of these files would be created and our node would be assigned a new nodeID.
 
-## Backup
+### Backup
 
 To backup our node, we need to store the files `signer.key`, `staker.crt` and `staker.key`. It is advised that you store these files in a safe and private location, potentially multiple different locations (private USB stick or cloud storage, personal computer and similiar). Storing them on different locations decreases the risk of losing your node and any potential staking rewards.
 
