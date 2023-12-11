@@ -94,7 +94,9 @@ This will add our node as a validator for our supernet. However, we need to perf
 
 
 
-Next, for users following the [manual ](set-up-and-connect-a-node-manually.md)or [install script](set-up-and-connect-a-node.md) guide for setting up juneogo: please create a file titled `config.json` in the home directory.&#x20;
+For users following the [manual ](set-up-and-connect-a-node-manually.md)guide for setting up juneogo: please create a file titled `config.json` in the home directory.&#x20;
+
+For users following the [install script](set-up-and-connect-a-node.md) guide for setting up juneogo: your `config.json` can already be found in the home directory.&#x20;
 
 For users who are running juneogo using [juneogo-docker](https://github.com/Juneo-io/juneogo-docker): your config file can be found in the `juneogo-docker/juneogo/.juneogo/config.json` directory.
 
@@ -112,10 +114,18 @@ Example:
 
 After saving the file, you may run your node again.&#x20;
 
-For users following the [manual ](set-up-and-connect-a-node-manually.md)or [install script](set-up-and-connect-a-node.md) juneogo setup guide, please execute the following :
+
+
+For users following the [manual ](set-up-and-connect-a-node-manually.md)juneogo setup guide, please execute the following :
 
 ```bash
 ./juneogo --config-file="./config.json"
+```
+
+For users following the [install script](set-up-and-connect-a-node.md) juneogo setup guide, please restart the juneogo service:
+
+```bash
+systemctl --user restart juneogo.service
 ```
 
 For users running juneogo using [juneogo-docker](https://github.com/Juneo-io/juneogo-docker), please re-start your node using docker compose.
