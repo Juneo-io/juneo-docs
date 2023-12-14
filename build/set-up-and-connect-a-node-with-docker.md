@@ -106,7 +106,7 @@ Example (if the user is `juneogo`):
 sudo chown -R juneogo .juneogo/
 ```
 
-To enter the juneogo Docker container, please execute:
+If necessary, you can enter the juneogo Docker container with the following command:
 
 ```bash
 docker exec -ti juneogo /bin/bash
