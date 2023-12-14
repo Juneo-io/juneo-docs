@@ -57,7 +57,7 @@ juneo.node.com {
 }
 ```
 
-After this, please execute:
+After this, please open the juneogo-docker directory in your command line and execute:
 
 ```bash
 docker-compose build
