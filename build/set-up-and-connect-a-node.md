@@ -8,28 +8,46 @@ Before proceeding, please make sure that your machine meets the hardware and sof
 
 ### Setup and Connect a node to the Socotra Testnet v1[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
-The install script which will be used to configure and run your node can be found [here](https://github.com/Juneo-io/juneogo-binaries/blob/main/simple\_setup.sh).
+The install scripts which will be used to configure and run your node can be found [here](https://github.com/Juneo-io/juneogo-binaries). We will be using two script files - `preparation.sh` and `simple_setup.sh`.
 
-This script is intended as a convenient way to configure JuneoGo and run it as a service. This script is not recommended for production environments. Before running this script, make yourself familiar with its contents as well as potential risks and limitations.
+These scripts are intended as a convenient way to configure JuneoGo and run it as a service. These scripts are not recommended for production environments. Before executing them, make yourself familiar with their contents as well as potential risks and limitations.
 
 {% hint style="info" %}
-This install script assumes:
+This install scripts assume:
 
 * JuneoGo is not running and not already installed as a service
 * You have Git installed on your system
 {% endhint %}
 
 {% hint style="info" %}
-If you are using a different distribution of Linux other than Ubuntu, this script may not work as it assumes that `systemd` is used to run system services. It will likely work on systems that use `systemd` to run services, but it has been developed and tested on Ubuntu.
+If you are using a different distribution of Linux other than Ubuntu, these scripts may not work as they assume that `systemd` is used to run system services. They will likely work on systems that use `systemd` to run services, but they have been developed for and tested on Ubuntu.
 {% endhint %}
 
-To run the script, please execute the following command:
+The first step is to run the `preparation.sh` script.&#x20;
+
+{% hint style="warning" %}
+CAUTION:
+
+Before executing this script, make sure you understand the implications of disabling root login and password authentication to avoid unexpected errors and security issues.
+
+During script execution, read all the prompts carefully and make sure you understand them before proceeding further.
+{% endhint %}
+
+Please execute the following command as root (or with sudo privileges):
 
 ```bash
-wget -O - https://raw.githubusercontent.com/Juneo-io/juneogo-binaries/main/simple_setup.sh | bash
+bash <(wget -qO- https://raw.githubusercontent.com/Juneo-io/juneogo-binaries/main/preparation.sh)
 ```
 
-This will clone the juneogo-binaries repository from github, configure all necessary files, and create a service which will run JuneoGo and start bootstrapping your node.
+Executing this script will create a new user`juneogo` on your server, which will be running your juneogo node.
+
+The next step is to logout of your server, and then login as the user `juneogo`. Once you have logged in as the user `juneogo`, you may execute the `simple_setup.sh` script with the following command:
+
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/Juneo-io/juneogo-binaries/main/simple_setup.sh)
+```
+
+This will clone the juneogo-binaries repository from github, configure all the necessary files, and create a service which will run JuneoGo and start bootstrapping your node.
 
 You may check if your node has boostrapped with the following call:
 
