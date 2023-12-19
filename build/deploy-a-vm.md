@@ -97,7 +97,7 @@ In addition to this, it is required that your node accepts API calls from remote
 This file should include the `http-host` config flag, and it's value should be set to your public IP address. Example:
 
 ```json
-"http-host":"XXX:XXX:XXX:XXX"
+"http-host":"XXX.XXX.XXX.XXX"
 ```
 
 {% hint style="info" %}
