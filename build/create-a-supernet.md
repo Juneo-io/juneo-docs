@@ -9,14 +9,20 @@ A prerequisite for this tutorial is that you have a running node that is validat
 We will be using example code found in the [juneojs-examples ](https://github.com/Juneo-io/juneojs-examples)repository to deploy our Supernet (which uses the library [juneojs](https://www.npmjs.com/package/juneojs)).
 
 {% hint style="info" %}
-We recommend using JuneoJS on a system where you have access to a code editor.\
-\
-Please make sure that you have the latest version of [Node.JS](https://nodejs.org/en) installed on this system, along with the npm package[ ts-node](https://www.npmjs.com/package/ts-node), which will be used to execute the sample code provided in JuneoJS).
+We recommend using JuneoJS on a system where you have access to a code editor.
 {% endhint %}
 
 ### Create a Supernet
 
-Please download the [juneojs-examples](https://github.com/Juneo-io/juneojs-examples) repository on your local machine. If you have [git](https://git-scm.com/) installed on your system, please execute the following in your command line:
+First, please make sure that you have the latest version of [NodeJS](https://nodejs.org/en) installed on your system.
+
+{% hint style="warning" %}
+If the version of NodeJS on your system is not up to date with the LTS version found at [https://nodejs.org](https://nodejs.org/en), the scripts in this guide will not be able to execute.
+{% endhint %}
+
+You will also need have the npm package[ ts-node](https://www.npmjs.com/package/ts-node) installed, which will be used to execute the sample code provided in JuneoJS.
+
+After verifying the information above, please download the [juneojs-examples](https://github.com/Juneo-io/juneojs-examples) repository to your local machine. If you have [git](https://git-scm.com/) installed on your system, please execute the following in your command line:
 
 ```bash
 git clone https://github.com/Juneo-io/juneojs-examples

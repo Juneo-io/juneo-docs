@@ -6,39 +6,60 @@ How to set up and connect a node to the Socotra Testnet v1 network manually.
 Before proceeding, please make sure that your machine meets the hardware and software [node requierments](node-requirements.md).
 {% endhint %}
 
+{% hint style="info" %}
+At the end of this guide, the JuneoGo process should remain running in the background on your server (e.g. as a service), which is not demonstrated in this guide. If you are less experienced with this and with the linux operating system in general, we suggest using our [Docker guide](set-up-and-connect-a-node-with-docker.md).
+{% endhint %}
+
+{% hint style="info" %}
+For experienced linux users who wish to set up JuneoGo automatically, we suggest following the [Installation Script JuneoGo setup guide](set-up-and-connect-a-node.md).
+{% endhint %}
+
 ### Setup and Connect a node to the Socotra Testnet v1[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
-For this step, you will have to download the binary files found [here](https://github.com/Juneo-io/juneogo-binaries). If you have [git](https://git-scm.com/) installed on your system, please execute the following in your command line:
+First, you should transfer the project files found [here](https://github.com/Juneo-io/juneogo-binaries) to your server. If you have [git](https://git-scm.com/) installed on your server, you may execute the following commands:
 
-`git clone https://github.com/Juneo-io/juneogo-binaries`
+```bash
+cd ~
 
-Your binaries will be found in the `juneogo-binaries` folder on your system.
+git clone https://github.com/Juneo-io/juneogo-binaries
+```
+
+The required files will now be found in the `juneogo-binaries` folder in your home directory.
 
 #### Configuring the initial binary files
 
-The first step is to transfer the required binaries to the **home directory** of the server on which you wish to run your node. These binaries are:
+{% hint style="warning" %}
+Do not execute the _preparation.sh_ or _simple\_setup.sh_ scripts found inside the juneogo-binaries directory. These are intended to only be used when following the [Install Script JuneoGo setup guide](set-up-and-connect-a-node.md).
+{% endhint %}
+
+The binary files required to run JuneoGo are:
 
 1. juneogo
 2. jevm
 3. srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
 
-After moving these binaries to the server, we next step is to allow execution permissions for them with the following commands:
+To grant execution permissions of the binary files, please execute the following commands:
 
 ```bash
-chmod +x juneogo
-chmod +x jevm
-chmod +x srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
+chmod +x ~/juneogo-binaries/juneogo
+chmod +x ~/juneogo-binaries/plugins/jevm
+chmod +x ~/juneogo-binaries/plugins/srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
 ```
 
-Next, the directory `.juneogo/plugins` should be created in the home directory of our server,  and the _jevm_ binary should be placed there:
+After this, the _juneogo_ binary should be moved to the home directory. The remaining two binaries should be moved to the `~/.juneogo/plugins` directory.
+
+To do so, please execute the following commands:
 
 ```bash
-mkdir -p .juneogo/plugins
-mv jevm .juneogo/plugins
-mv srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e .juneogo/plugins
+mv ~/juneogo-binaries/juneogo ~
+
+mkdir -p ~/.juneogo/plugins
+
+mv ~/juneogo-binaries/plugins/jevm ~/.juneogo/plugins
+mv ~/juneogo-binaries/plugins/srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e ~/.juneogo/plugins
 ```
 
-The structure of your home directory should resemble the following:
+The structure of your **home directory** should resemble the following:
 
 ```bash
 ├── juneogo
@@ -48,7 +69,7 @@ The structure of your home directory should resemble the following:
 │   │   └── srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e
 ```
 
-{% hint style="info" %}
+{% hint style="warning" %}
 If these files are structured differenty than above, you will not be able to connect your node.
 {% endhint %}
 
@@ -58,7 +79,7 @@ You may now connect the node to the Socotra network by executing the juneogo bin
 ./juneogo
 ```
 
-This will start fetching blocks and bootstrapping your node.&#x20;
+This will start fetching blocks and bootstrapping your node.
 
 {% hint style="warning" %}
 Please make sure this process keeps running in the background. If the execution of the juneogo executable stops, your node will be inactive.
