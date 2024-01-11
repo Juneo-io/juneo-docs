@@ -8,7 +8,7 @@ After successfully bootstrapping your node, you may add it as a validator on the
 
 ### Stakes and fees
 
-* The minimal stake on Mainnet is 50 JUNE, where as the maximum stake is 30,000 JUNE. On the Socotra network, the minimal stake is 1 JUNE, and the maximal stake is 1,000,000 JUNE. You will also need additional funds to pay for transaction fees.
+* The minimal stake on Mainnet is 100 JUNE, where as the maximum stake is 30,000 JUNE. On the Socotra network, the minimal stake is 1 JUNE, and the maximal stake is 1,000,000 JUNE. You will also need additional funds to pay for transaction fees.
 * The minimal staking period is 14 days on Mainnet and 1 day on the Socotra network. The maximal staking period for both networks is 365 days.
 * Any delegator staking their funds on your node will pay you the delegation fee, which is 12% of their reward. Delegators can stake no more than x4 of your own stake.
 
@@ -18,7 +18,7 @@ A node cannot be a validator on a Supernet longer than it is a validator on the 
 
 |                        | Mainnet     | Socotra         |
 | ---------------------- | ----------- | --------------- |
-| Minimal stake          | 50 JUNE     | 1 JUNE          |
+| Minimal stake          | 100 JUNE    | 1 JUNE          |
 | Maximal stake          | 45,000 JUNE |  1,000,000 JUNE |
 | Minimal staking period | 14 days     | 1 day           |
 | Maximal staking period | 365 days    | 365 days        |
