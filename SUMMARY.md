@@ -1,11 +1,11 @@
 # Table of contents
 
-## The juneo network (work in progress)
+## The juneo network
 
 * [What is JUNEO](README.md)
-* [Avalanche foundations](the-juneo-network-work-in-progress/avalanche-foundations.md)
-* [JUNEO improvements](the-juneo-network-work-in-progress/juneo-improvements.md)
-* [Join the Socotra Testnet v1](the-juneo-network-work-in-progress/join-the-socotra-testnet-v1.md)
+* [Avalanche foundations](the-juneo-network/avalanche-foundations.md)
+* [JUNEO improvements](the-juneo-network/juneo-improvements.md)
+* [Join the Socotra Testnet v1](the-juneo-network/join-the-socotra-testnet-v1.md)
 
 ## Architecture
 

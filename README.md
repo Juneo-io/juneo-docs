@@ -15,7 +15,7 @@ JUNEO makes it possible to create networks of [**Nodes**](broken-reference) (cal
 
 <figure><img src=".gitbook/assets/image (2).png" alt="" width="495"><figcaption></figcaption></figure>
 
-Tests can be carried out on our [**Socotra Testnet v1**](the-juneo-network-work-in-progress/join-the-socotra-testnet-v1.md). \
+Tests can be carried out on our [**Socotra Testnet v1**](the-juneo-network/join-the-socotra-testnet-v1.md). \
 Another testnet will be available soon with enhanced features (**Socotra Testnet v2**).\
 The **Mainnet** launch is planned for Q1 2024.
 
