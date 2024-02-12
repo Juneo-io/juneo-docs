@@ -39,8 +39,8 @@ Never use the same **chainId** value more than once- this can cause unexpected e
 {% hint style="info" %}
 Please make sure to specify the `chainId` variable to a value that is not already taken by another chain.
 
-For **Socotra v1**, please use a random number from 300,000 - 399,999.\
-For **Socotra v2**, please use a random number from 200,000 - 299,999.
+For the **Genesis Testnet**, please use a random number from 300,000 - 399,999.\
+For the **Socotra Testnet**, please use a random number from 200,000 - 299,999.
 
 For **Mainnet,** please use a number starting from 450,000.
 {% endhint %}

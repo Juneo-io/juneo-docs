@@ -1,6 +1,6 @@
 # Set up and Connect a node using the Install Script
 
-How to set up and connect a node to the Socotra Testnet v1 network using the installation script.
+How to set up and connect a node to the Genesis Testnet network using the installation script.
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requierments](node-requirements.md).
@@ -10,7 +10,7 @@ Before proceeding, please make sure that your machine meets the hardware and sof
 If you are less with the linux operating system, we suggest using our [Docker guide](set-up-and-connect-a-node-with-docker.md).
 {% endhint %}
 
-### Setup and Connect a node to the Socotra Testnet v1[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
+### Setup and Connect a node to the Genesis Testnet <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
 The install scripts which will be used to configure and run your node can be found [here](https://github.com/Juneo-io/juneogo-binaries). We will be using two script files - `preparation.sh` and `simple_setup.sh`.
 

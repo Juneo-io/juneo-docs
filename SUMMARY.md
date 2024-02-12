@@ -5,7 +5,7 @@
 * [What is JUNEO](README.md)
 * [Avalanche foundations](the-juneo-network/avalanche-foundations.md)
 * [JUNEO improvements](the-juneo-network/juneo-improvements.md)
-* [Join the Socotra Testnet v1](the-juneo-network/join-the-socotra-testnet-v1.md)
+* [Join the Genesis Testnet](the-juneo-network/join-the-socotra-testnet-v1.md)
 
 ## Architecture
 

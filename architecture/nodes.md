@@ -38,7 +38,7 @@ For more details about the Network Architecture, see the [Juneo Litepaper](https
 
 ### Build
 
-<table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="broken-reference">Set up and Connect a node manually</a></td><td>How to set up and connect to the Socotra Testnet v1 network without the installer script</td><td></td></tr><tr><td><a href="../build/create-a-supernet.md">Create a Supernet</a></td><td>How to create a Supernet on the Socotra Testnet v1</td><td></td></tr><tr><td><a href="../build/deploy-a-vm.md">Deploy a VM</a></td><td>How to deploy a VM on your Supernet</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="broken-reference">Set up and Connect a node manually</a></td><td>How to set up and connect to the Genesis Testnet network without the installer script</td><td></td></tr><tr><td><a href="../build/create-a-supernet.md">Create a Supernet</a></td><td>How to create a Supernet on the Genesis Testnet</td><td></td></tr><tr><td><a href="../build/deploy-a-vm.md">Deploy a VM</a></td><td>How to deploy a VM on your Supernet</td><td></td></tr></tbody></table>
 
 ### Maintain
 
