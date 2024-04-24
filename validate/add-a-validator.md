@@ -73,7 +73,7 @@ For time synchronization on macOS, please follow their [documentation](https://s
 
 ### Adding a validator using the graphic interface
 
-The first step to become a validator is to find out what your Node ID is. Open the terminal on the server running your node, and execute the following call:
+The first step to becoming a validator is to obtain your Node ID and prepare your BLS key information, which includes your public key and proof of possession. Open the terminal on the server running your node, and execute the following call:
 
 ```bash
 curl -X POST --data '{
@@ -89,13 +89,17 @@ Example response:
 {
   "jsonrpc": "2.0",
   "result": {
-    "nodeID": "NodeID-HkHfVnfbpiLKDBrW7wiy8HET456UKnr6C"
+    "nodeID": "NodeID-4JfgcoMWBpxCQL5VmyQ1f6L36mUbLLBga",
+    "nodePOP": {
+      "publicKey": "MyBLSKey",
+      "proofOfPossession": "MyBLSSignature",
+    }
   },
   "id": 1
 }
 ```
 
-Next, copy the value for the nodeID parameter and log into [mcnwallet.io](https://www.mcnwallet.io/).
+Next, copy the value for the `nodeID`, `publicKey`, and `proofOfPossession` from the response and log into [mcnwallet.io](https://www.mcnwallet.io/).
 
 {% hint style="info" %}
 For non-advanced users, we recommend MNEMONIC usage for access to the the graphic interface.
@@ -103,9 +107,9 @@ For non-advanced users, we recommend MNEMONIC usage for access to the the graphi
 
 Please make sure that you have a balance of at least 1 JUNE in the P-chain, and additional JUNE for transaction costs. For this purpose, you may perform Cross-chain transactions to transfer JUNE from any of the other two chains to the P-chain in the **Cross-chain** page.
 
-In the mcnwallet, navigate to the **Stake** page, and click on the **Validate** card. We shall enter our nodeID, set the staking amount to 1 JUNE, and the validation period to 15 days.
+In the mcnwallet, navigate to the **Stake** page, and click on the **Validate** card. Enter your `NodeID`, `BLS Key (publicKey)`, and `BLS Signature (proofOfPossession)`. Set the staking amount to 1 JUNE, and the validation period to 14 days. Ensure all information is correctly entered to enable your node for validation.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p><a href="https://mcnwallet.io/">https://mcnwallet.io/</a></p></figcaption></figure>
 
 Next, click Validate to add your node to the Validator set.&#x20;
 
