@@ -79,7 +79,7 @@ Please open the file `./src/supernet/addSupernetValidator.ts` in your code edito
 ```typescript
 const nodeId: string = 'NodeID-B2GHMQ8GF6FyrvmPUX6miaGeuVLH9UwHr'
 const supernetId: string = 'ZxTjijy4iNthRzuFFzMH5RS2BgJemYxwgZbzqzEhZJWqSnwhP'
-const durationInDays: number = 4 // number of days you will validate your Supernet
+const durationInDays: number = 20 // number of days you will validate your Supernet
 ```
 
 We will keep the **durationInDays** variable the same. However, you may update it to a diffent value.
@@ -87,7 +87,7 @@ We will keep the **durationInDays** variable the same. However, you may update i
 {% hint style="info" %}
 The variable **durationInDays** must be less than the amount of remaining days your node will be validating the Primary network.
 
-If your node has 5 days (or a little over 4 days) left of Primary Network validation, you must set **durationInDays** to 4 or less.
+If your node has 21 days (or a little over 20 days) left of Primary Network validation, you must set **durationInDays** to 20 or less.
 {% endhint %}
 
 Then, execute this file:
