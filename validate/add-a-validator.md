@@ -9,18 +9,18 @@ After successfully bootstrapping your node, you may add it as a validator on the
 ### Stakes and fees
 
 * The minimum stake on Mainnet is 100 JUNE, where as the maximum stake is 30,000 JUNE. On the Socotra Testnet, the minimum stake is 1 JUNE, and the maximum stake is 30,000 JUNE. You will also need additional funds to pay for transaction fees.
-* The minimum staking period is 14 days on Mainnet and 1 day on the Socotra Testnet. The maximum staking period for both networks is 365 days.
+* The minimum staking period is 14 days on Mainnet and on Socotra Testnet. The maximum staking period for both networks is 365 days.
 * Any delegator staking their funds on your node will pay you the delegation fee, which is 12% of their reward. Delegators can stake no more than x4 of your own stake.
 
 {% hint style="info" %}
-A node cannot be a validator on a Supernet longer than it is a validator on the primary supernet. If you wish to deploy a supernet and add your node as a validator, we recommend staking on the primary supernet for at least 15 days on Mainnet, and at least 2 days on Socotra. Once you have staked your tokens, you will be able to deploy a Supernet and add your node as a validator to it for the minimum required validation period.
+A node cannot be a validator on a Supernet longer than it is a validator on the primary supernet. If you wish to deploy a supernet and add your node as a validator, we recommend staking on the primary supernet for at least 15 days. Once you have staked your tokens, you will be able to deploy a Supernet and add your node as a validator to it for the minimum required validation period.
 {% endhint %}
 
 |                        | Mainnet     | Socotra Testnet |
 | ---------------------- | ----------- | --------------- |
 | Minimum stake          | 100 JUNE    | 1 JUNE          |
 | Maximum stake          | 30,000 JUNE |  30,000 JUNE    |
-| Minimum staking period | 14 days     | 1 day           |
+| Minimum staking period | 14 days     | 14 days         |
 | Maximum staking period | 365 days    | 365 days        |
 
 ### Node requirements
