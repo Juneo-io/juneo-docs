@@ -11,7 +11,7 @@ Juneogo is a lightweight protocol. Note that as network usage increases, hardwar
 * CPU: 4 cores
 * RAM: 8 GiB
 * Storage: 160 GiB SSD (500 GiB SSD for Mainnet)
-* OS: Ubuntu 20.04/ 22.04
+* OS: Ubuntu 22.04
 
 ### Networking[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#networking) <a href="#networking" id="networking"></a>
 
