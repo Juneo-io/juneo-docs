@@ -25,7 +25,7 @@ A node cannot be a validator on a Supernet longer than it is a validator on the 
 
 ### Node requirements
 
-| OS      | Ubuntu 20.04/ 22.04                  |
+| OS      | Ubuntu 22.04                         |
 | ------- | ------------------------------------ |
 | CPU     | 4 cores                              |
 | RAM     | 8 GiB                                |
