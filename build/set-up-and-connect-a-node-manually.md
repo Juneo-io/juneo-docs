@@ -1,6 +1,6 @@
 # Set up and Connect a node manually
 
-How to set up and connect a node to the Genesis Testnet network manually.
+How to set up and connect a node to the Socotra Testnet network manually.
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requierments](node-requirements.md).
@@ -14,7 +14,7 @@ At the end of this guide, the JuneoGo process should remain running in the backg
 For experienced linux users who wish to set up JuneoGo automatically, we suggest following the [Installation Script JuneoGo setup guide](set-up-and-connect-a-node.md).
 {% endhint %}
 
-### Setup and Connect a node to the Genesis Testnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
+### Setup and Connect a node to the Socotra Testnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
 First, you should transfer the project files found [here](https://github.com/Juneo-io/juneogo-binaries) to your server. If you have [git](https://git-scm.com/) installed on your server, you may execute the following commands:
 

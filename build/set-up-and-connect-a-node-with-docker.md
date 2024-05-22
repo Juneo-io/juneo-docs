@@ -1,12 +1,12 @@
 # Set Up and Connect a node with Docker
 
-How to set up and connect a node to the Genesis Testnet network using docker.
+How to set up and connect a node to the Socotra Testnet network using docker.
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requierments](node-requirements.md).
 {% endhint %}
 
-## Setup and Connect a node to the Genesis Testnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
+## Setup and Connect a node to the Socotra Testnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
 ### 1. Docker and docker-compose <a href="#user-content-1-docker-and-docker-compose" id="user-content-1-docker-and-docker-compose"></a>
 

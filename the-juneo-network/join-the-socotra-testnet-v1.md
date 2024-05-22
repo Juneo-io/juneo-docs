@@ -1,4 +1,4 @@
-# Join the Genesis Testnet
+# Join the Socotra Testnet
 
 In the links below you can find all necessary resources to:
 
@@ -23,7 +23,7 @@ Documentation: [Connect a node](../build/set-up-and-connect-a-node-manually.md)
 Videos:
 
 * 1.1. [Downloading the juneogo executables](https://drive.google.com/file/d/1wdO8k-d7GcJFx\_IuOyjesEudcCx5tKdW/view?usp=drive\_link)
-* 1.2 [Connect a node to the Genesis Testnet](https://drive.google.com/file/d/1Lf8Y1VBl-SzgGvYONcbNp4yByKQrCWBy/view?usp=drive\_link)
+* 1.2 [Connect a node to the Socotra Testnet](https://drive.google.com/file/d/1Lf8Y1VBl-SzgGvYONcbNp4yByKQrCWBy/view?usp=drive\_link)
 * 1.3 [Check if your node is bootstrapped](https://drive.google.com/file/d/1-cYz3D8WJK7XsKJHA2yNqPZaK5ROawOF/view?usp=drive\_link)
 
 ***
