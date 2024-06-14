@@ -3,7 +3,7 @@
 How to set up and connect a node to the Socotra Testnet network using docker.
 
 {% hint style="warning" %}
-Before proceeding, please make sure that your machine meets the hardware and software [node requierments](node-requirements.md).
+Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).
 {% endhint %}
 
 ## Setup and Connect a node to the Socotra Testnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
@@ -53,7 +53,7 @@ Example:
 
 ```yaml
 juneo.node.com {
-    reverse_proxy juneogo:9650
+reverse_proxy juneogo:9650
 }
 ```
 

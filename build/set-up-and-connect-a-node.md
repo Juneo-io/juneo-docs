@@ -3,7 +3,7 @@
 How to set up and connect a node to the Socotra Testnet network using the installation script.
 
 {% hint style="warning" %}
-Before proceeding, please make sure that your machine meets the hardware and software [node requierments](node-requirements.md).
+Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).
 {% endhint %}
 
 {% hint style="info" %}
@@ -19,9 +19,9 @@ These scripts are intended as a convenient way to configure JuneoGo and run it a
 {% hint style="info" %}
 This install scripts assume:
 
-* JuneoGo is not running and not already installed as a service
-* You have Git installed on your system
-{% endhint %}
+- JuneoGo is not running and not already installed as a service
+- You have Git installed on your system
+  {% endhint %}
 
 {% hint style="info" %}
 If you are using a different distribution of Linux other than Ubuntu, these scripts may not work as they assume that `systemd` is used to run system services. They will likely work on systems that use `systemd` to run services, but they have been developed for and tested on Ubuntu.

@@ -3,7 +3,7 @@
 How to set up and connect a node to the Socotra Testnet network manually.
 
 {% hint style="warning" %}
-Before proceeding, please make sure that your machine meets the hardware and software [node requierments](node-requirements.md).
+Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).
 {% endhint %}
 
 {% hint style="info" %}
@@ -29,7 +29,7 @@ The required files will now be found in the `juneogo-binaries` folder in your ho
 #### Configuring the initial binary files
 
 {% hint style="warning" %}
-Do not execute the _preparation.sh_ or _simple\_setup.sh_ scripts found inside the juneogo-binaries directory. These are intended to only be used when following the [Install Script JuneoGo setup guide](set-up-and-connect-a-node.md).
+Do not execute the _preparation.sh_ or _simple_setup.sh_ scripts found inside the juneogo-binaries directory. These are intended to only be used when following the [Install Script JuneoGo setup guide](set-up-and-connect-a-node.md).
 {% endhint %}
 
 The binary files required to run JuneoGo are:
