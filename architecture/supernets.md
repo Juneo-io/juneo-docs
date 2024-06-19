@@ -12,4 +12,4 @@ Enabling unlimited Blockchain creation that can support a large variety of apps/
 * No more ressource sacrifice for scaling, SuperNets are  40X more cost efficient in terms of token cost and 200X in terms of USD than other major networks
 * A SuperNet can create incentives for other builders to join and bring more utilities. It increases competition and supports innovation.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="554"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="554"><figcaption></figcaption></figure>
