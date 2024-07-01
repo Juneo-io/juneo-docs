@@ -27,7 +27,7 @@ const supernetId: string = 'ZxTjijy4iNthRzuFFzMH5RS2BgJemYxwgZbzqzEhZJWqSnwhP' /
 
 const chainName: string = 'Chain A'
 
-const chainId: number = 330333
+const chainId: number = 220222
 
 const genesisMintAddress: string = '0x44542FD7C3F096aE54Cc07833b1C0Dcf68B7790C' // your wallet address here
 ```
@@ -37,16 +37,14 @@ Never use the same **chainId** value more than once- this can cause unexpected e
 {% endhint %}
 
 {% hint style="info" %}
-Please make sure to specify the `chainId` variable to a value that is not already taken by another chain.
-
-For the **Genesis Testnet**, please use a random number from 300,000 - 399,999.\
+Please make sure to specify the `chainId` variable to a value that is not already taken by another chain.\
 For the **Socotra Testnet**, please use a random number from 200,000 - 299,999.
 
-For **Mainnet,** please use a number starting from 450,000.
+For **Mainnet,** please use a number starting from 45,015.
 {% endhint %}
 
 {% hint style="info" %}
-Avoid assigning the`chainId` variable a number with repetative digits (such as 334455, 333444, 333333, 343434 or similar).
+Avoid assigning the`chainId` variable a number with repetative digits (such as 224455, 222444, 222222, 242424 or similar).
 {% endhint %}
 
 After this, execute this file in the command line using ts-node:

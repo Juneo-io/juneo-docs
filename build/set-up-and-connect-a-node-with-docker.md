@@ -1,12 +1,12 @@
 # Set Up and Connect a node with Docker
 
-How to set up and connect a node to the Socotra Testnet network using docker.
+How to set up and connect a node to the Mainnet using docker.
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).
 {% endhint %}
 
-## Setup and Connect a node to the Socotra Testnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
+## Setup and Connect a node to the Mainnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
 ### 1. Docker and docker-compose <a href="#user-content-1-docker-and-docker-compose" id="user-content-1-docker-and-docker-compose"></a>
 
@@ -26,6 +26,16 @@ By default, your node will not accept remote RPC calls. If you would like to ena
 ports:
   - 9650:9650 # port for API calls - will enable remote RPC calls to your node (mandatory for Supernet/ Blockchain deployers)
 ```
+
+{% hint style="warning" %}
+If you want to connect the node to the Socotra testnet, you need to update the `config.json` file with the `network-id` flag :&#x20;
+
+```bash
+{
+  "network-id":"socotra"
+}
+```
+{% endhint %}
 
 ### 3. Run JuneoGo <a href="#user-content-3-run-juneogo" id="user-content-3-run-juneogo"></a>
 
@@ -53,7 +63,7 @@ Example:
 
 ```yaml
 juneo.node.com {
-reverse_proxy juneogo:9650
+    reverse_proxy juneogo:9650
 }
 ```
 

@@ -57,6 +57,13 @@ Go to the github `juneogo-binaries` repository and download the latest version o
 
 Connect to your server through a SFTP agent and copy paste the new files.
 
+To grant execution permissions of the binary files, please execute the following commands:
+
+```bash
+chmod +x ~/YOUR-PATH/juneogo
+chmod +x ~/YOUR-PATH/plugins/jevm
+```
+
 ### b. Running the node using the Install Script
 
 {% hint style="danger" %}

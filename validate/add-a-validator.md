@@ -19,7 +19,7 @@ A node cannot be a validator on a Supernet longer than it is a validator on the 
 |                        | Mainnet     | Socotra Testnet |
 | ---------------------- | ----------- | --------------- |
 | Minimum stake          | 100 JUNE    | 1 JUNE          |
-| Maximum stake          | 30,000 JUNE |  30,000 JUNE    |
+| Maximum stake          | 30,000 JUNE |  1,000,000 JUNE |
 | Minimum staking period | 14 days     | 14 days         |
 | Maximum staking period | 365 days    | 365 days        |
 
@@ -105,9 +105,9 @@ Next, copy the value for the `nodeID`, `publicKey`, and `proofOfPossession` from
 For non-advanced users, we recommend MNEMONIC usage for access to the the graphic interface.
 {% endhint %}
 
-Please make sure that you have a balance of at least 1 JUNE in the P-chain, and additional JUNE for transaction costs. For this purpose, you may perform Cross-chain transactions to transfer JUNE from any of the other two chains to the P-chain in the **Cross-chain** page.
+Please make sure that you have a balance of at least 100 JUNE in the P-chain, and additional JUNE for transaction costs. For this purpose, you may perform Cross-chain transactions to transfer JUNE from any of the other two chains to the P-chain in the **Cross-chain** page.
 
-In the mcnwallet, navigate to the **Stake** page, and click on the **Validate** card. Enter your `NodeID`, `BLS Key (publicKey)`, and `BLS Signature (proofOfPossession)`. Set the staking amount to 1 JUNE, and the validation period to 14 days. Ensure all information is correctly entered to enable your node for validation.
+In the mcnwallet, navigate to the **Stake** page, and click on the **Validate** card. Enter your `NodeID`, `BLS Key (publicKey)`, and `BLS Signature (proofOfPossession)`. Set the staking amount to 100 JUNE, and the validation period to 14 days. Ensure all information is correctly entered to enable your node for validation.
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p><a href="https://mcnwallet.io/">https://mcnwallet.io/</a></p></figcaption></figure>
 

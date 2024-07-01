@@ -1,6 +1,6 @@
 # Set up and Connect a node using the Install Script
 
-How to set up and connect a node to the Socotra Testnet network using the installation script.
+How to set up and connect a node to the Mainnet using the installation script.
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).
@@ -10,7 +10,7 @@ Before proceeding, please make sure that your machine meets the hardware and sof
 If you are less with the linux operating system, we suggest using our [Docker guide](set-up-and-connect-a-node-with-docker.md).
 {% endhint %}
 
-### Setup and Connect a node to the Socotra Testnet <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
+### Setup and Connect a node to the Mainnet <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
 The install scripts which will be used to configure and run your node can be found [here](https://github.com/Juneo-io/juneogo-binaries). We will be using two script files - `preparation.sh` and `simple_setup.sh`.
 
@@ -19,15 +19,15 @@ These scripts are intended as a convenient way to configure JuneoGo and run it a
 {% hint style="info" %}
 This install scripts assume:
 
-- JuneoGo is not running and not already installed as a service
-- You have Git installed on your system
-  {% endhint %}
+* JuneoGo is not running and not already installed as a service
+* You have Git installed on your system
+{% endhint %}
 
 {% hint style="info" %}
 If you are using a different distribution of Linux other than Ubuntu, these scripts may not work as they assume that `systemd` is used to run system services. They will likely work on systems that use `systemd` to run services, but they have been developed for and tested on Ubuntu.
 {% endhint %}
 
-The first step is to run the `preparation.sh` script.&#x20;
+The first step is to run the `preparation.sh` script.
 
 {% hint style="warning" %}
 CAUTION:
@@ -52,6 +52,18 @@ bash <(wget -qO- https://raw.githubusercontent.com/Juneo-io/juneogo-binaries/mai
 ```
 
 This will clone the juneogo-binaries repository from github, configure all the necessary files, and create a service which will run JuneoGo and start bootstrapping your node.
+
+If you want to connect the node to the Socotra testnet, you need to update the `config.json` file with the `network-id` flag :&#x20;
+
+{% hint style="warning" %}
+If you want to connect the node to the Socotra testnet, you need to update the `config.json` file with the `network-id` flag :&#x20;
+
+```bash
+{
+  "network-id":"socotra"
+}
+```
+{% endhint %}
 
 You may check if your node has boostrapped with the following call:
 

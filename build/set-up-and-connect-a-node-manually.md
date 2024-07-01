@@ -1,6 +1,6 @@
 # Set up and Connect a node manually
 
-How to set up and connect a node to the Socotra Testnet network manually.
+How to set up and connect a node to the Mainnet manually.
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).
@@ -14,7 +14,7 @@ At the end of this guide, the JuneoGo process should remain running in the backg
 For experienced linux users who wish to set up JuneoGo automatically, we suggest following the [Installation Script JuneoGo setup guide](set-up-and-connect-a-node.md).
 {% endhint %}
 
-### Setup and Connect a node to the Socotra Testnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
+### Setup and Connect a node to the Mainnet[​](https://docs.avax.network/nodes/build/run-avalanche-node-manually#run-an-avalanche-node) <a href="#run-an-avalanche-node" id="run-an-avalanche-node"></a>
 
 First, you should transfer the project files found [here](https://github.com/Juneo-io/juneogo-binaries) to your server. If you have [git](https://git-scm.com/) installed on your server, you may execute the following commands:
 
@@ -29,7 +29,11 @@ The required files will now be found in the `juneogo-binaries` folder in your ho
 #### Configuring the initial binary files
 
 {% hint style="warning" %}
-Do not execute the _preparation.sh_ or _simple_setup.sh_ scripts found inside the juneogo-binaries directory. These are intended to only be used when following the [Install Script JuneoGo setup guide](set-up-and-connect-a-node.md).
+Do not execute the _preparation.sh_ or _simple\_setup.sh_ scripts found inside the juneogo-binaries directory. These are intended to only be used when following the [Install Script JuneoGo setup guide](set-up-and-connect-a-node.md)
+{% endhint %}
+
+{% hint style="warning" %}
+If you previously ran a node on the Socotra Testnet, updating the binaries will bring you directly on Mainnet. &#x20;
 {% endhint %}
 
 The binary files required to run JuneoGo are:
@@ -75,8 +79,16 @@ If these files are structured differenty than above, you will not be able to con
 
 You may now connect the node to the network by executing the juneogo binary with the following command:
 
+For Mainnet use :
+
 ```sh
 ./juneogo
+```
+
+For Socotra Testnet use :
+
+```sh
+./juneogo --network-id="socotra"
 ```
 
 This will start fetching blocks and bootstrapping your node.

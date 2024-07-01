@@ -1,4 +1,4 @@
-# Join the Socotra Testnet
+# Join Juneo Mainnet
 
 In the links below you can find all necessary resources to:
 
@@ -9,7 +9,7 @@ In the links below you can find all necessary resources to:
 * perform transactions on your deployed EVM
 
 {% hint style="info" %}
-After step 1, please send us your **nodeID** and **the address of your wallet on the JUNE-chain**. After this, we will send you tokens so that you can proceed with step 2 - Add a Node to the Validator Set.
+After step 1, you will need to get at least 100 JUNE to validate the mainnet . After this, you can proceed with step 2 -[ Add a Node to the Validator Set](../validate/add-a-validator.md).
 
 For Supernet indexation on [mcnscan.io](https://mcnscan.io), please contact us.
 {% endhint %}
@@ -23,7 +23,7 @@ Documentation: [Connect a node](../build/set-up-and-connect-a-node-manually.md)
 Videos:
 
 * 1.1. [Downloading the juneogo executables](https://drive.google.com/file/d/1wdO8k-d7GcJFx\_IuOyjesEudcCx5tKdW/view?usp=drive\_link)
-* 1.2 [Connect a node to the Socotra Testnet](https://drive.google.com/file/d/1Lf8Y1VBl-SzgGvYONcbNp4yByKQrCWBy/view?usp=drive\_link)
+* 1.2 [Connect a node to the Mainnet](https://drive.google.com/file/d/1Lf8Y1VBl-SzgGvYONcbNp4yByKQrCWBy/view?usp=drive\_link)
 * 1.3 [Check if your node is bootstrapped](https://drive.google.com/file/d/1-cYz3D8WJK7XsKJHA2yNqPZaK5ROawOF/view?usp=drive\_link)
 
 ***
