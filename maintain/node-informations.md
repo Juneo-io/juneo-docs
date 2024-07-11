@@ -1,6 +1,6 @@
 # Node Informations
 
-## How to get your node information ?
+## How to get your node informations ?
 
 ```bash
 curl -X POST --data '{
