@@ -4,7 +4,7 @@ Avalanche is a blockchain platform that allows separate chains to be created for
 
 ### Subnets
 
-A Subnet is a sovereign network which defines its own rules regarding its membership and token economics. It is composed of a dynamic subset of Avalanche validators working together to achieve consensus on the state of one or more blockchains. Each blockchain is validated by exactly one Subnet, while a Subnet can validate many blockchains. On Juneo, these sovereign networks are known as Supernets.
+A Subnet is a sovereign network which defines its own rules regarding its membership and token economics. It is composed of a dynamic subset of Avalanche validators working together to achieve consensus on the state of one or more blockchains. Each blockchain is validated by exactly one Subnet, while a Subnet can validate many blockchains. On Juneo Supernet, these sovereign networks are known as Multi-Chain Networks (MCNs).
 
 The implementation of Subnets offers many benefits:
 
@@ -18,9 +18,9 @@ Every validator that wants to validate a Subnet must be a Validator of the Prima
 
 The Primary Network is a special Subnet that runs three blockchains:
 
-* The Platform Chain (P-Chain), equivalent to the P-Chain on Juneo
-* The Contract Chain (C-Chain), equivalent to the JUNE-Chain on Juneo
-* The Exchange Chain (X–Chain), equivalent to the JVM-Chain on Juneo
+* The Platform Chain (P-Chain), equivalent to the P-Chain on Juneo Supernet
+* The Contract Chain (C-Chain), equivalent to the JUNE-Chain on Juneo Supernet
+* The Exchange Chain (X–Chain), equivalent to the JVM-Chain on Juneo Supernet
 
 
 

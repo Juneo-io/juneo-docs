@@ -1,18 +1,18 @@
-# Create a Supernet
+# Create a Multi-Chain Network
 
-Creating a Supernet (which will allow us to later deploy our own VM).
+Creating a Multi-Chain Network (which will allow us to later deploy our own VM).
 
 {% hint style="info" %}
-A prerequisite for this tutorial is that you have a running node that is validating the primary network, for which the steps can find in the [Add a JUNEO validator node ](../validate/add-a-validator.md)guide.
+A prerequisite for this tutorial is that you have a running node that is validating the primary network, for which the steps can find in the [Add a Juneo Supernet validator node ](../validate/add-a-validator.md)guide.
 {% endhint %}
 
-We will be using example code found in the [juneojs-examples ](https://github.com/Juneo-io/juneojs-examples)repository to deploy our Supernet (which uses the library [juneojs](https://www.npmjs.com/package/juneojs)).
+We will be using example code found in the [juneojs-examples ](https://github.com/Juneo-io/juneojs-examples)repository to deploy our Multi-Chain Network (which uses the library [juneojs](https://www.npmjs.com/package/juneojs)).
 
 {% hint style="info" %}
 We recommend using JuneoJS on a system where you have access to a code editor.
 {% endhint %}
 
-### Create a Supernet
+### Create a Multi-Chain Network (MCN)
 
 First, please make sure that you have the latest version of [NodeJS](https://nodejs.org/en) installed on your system.
 
@@ -42,7 +42,7 @@ After this, open `juneojs-examples` in a code editor of your choice, create a .e
 MNEMONIC="raven whip pave toy benefit moment twin acid wasp satisfy crash april"
 ```
 
-To perform the transactions required to deploy a Supernet, you will need to have funds on the P-chain.  In this tutorial, we will first be crossing assets from the JUNE-chain to the JVM-chain, and then from  the JVM-chain to the P-chain.
+To perform the transactions required to deploy a MCN, you will need to have funds on the P-chain.  In this tutorial, we will first be crossing assets from the JUNE-chain to the JVM-chain, and then from  the JVM-chain to the P-chain.
 
 In a command line window open in the root of the JuneoJS library, execute the following:
 
@@ -56,7 +56,7 @@ This will cross 1.1 JUNE from the JUNE-chain to the JVM-chain. After this, we wi
 npx ts-node ./src/docs/crossJVMtoP.ts
 ```
 
-The next step is the Supernet creation. Please execute the following in the comand line:
+The next step is the MCN creation. Please execute the following in the command line:
 
 ```
 npx ts-node ./src/supernet/createSupernet.ts
@@ -64,14 +64,14 @@ npx ts-node ./src/supernet/createSupernet.ts
 
 This will produce an output to the terminal containing your supernetID. Example: _ZxTjijy4iNthRzuFFzMH5RS2BgJemYxwgZbzqzEhZJWqSnwh._
 
-This is the id of the transaction that has created your Supernet, and is the id of the Supernet as well. Please save it as we will needed in the following steps.
+This is the id of the transaction that has created your MCN, and is the id of the MCN as well. Please save it as we will needed in the following steps.
 
-### Add a validator to the Supernet
+### Add a validator to the MCN
 
 The next step is to perform the addSupernetValidator transaction.
 
 {% hint style="info" %}
-If your Supernet has no validators, all blockchains in that Supernet will be inactive and will not be able to process transactions.
+If your MCN has no validators, all blockchains in that MCN will be inactive and will not be able to process transactions.
 {% endhint %}
 
 Please open the file `./src/supernet/addSupernetValidator.ts` in your code editor, and update the following variables to contain the correct values. Example:
@@ -96,7 +96,7 @@ Then, execute this file:
 npx ts-node ./src/supernet/addSupernetValidator.ts
 ```
 
-This will add our node as a validator for our supernet. However, we need to perform an additional step before our node can begin validating our Supernet. First, please stop your node.
+This will add our node as a validator for our MCN. However, we need to perform an additional step before our node can begin validating our MCN. First, please stop your node.
 
 
 
@@ -108,7 +108,7 @@ For users who are running juneogo using [juneogo-docker](https://github.com/June
 
 
 
-In your `config.json` file, please include the configuration flag `track-supernets,` specifying the Supernets you want your node to track (in this case, the Supernet you have just created).
+In your `config.json` file, please include the configuration flag `track-supernets,` specifying the MCNs you want your node to track (in this case, the MCN you have just created).
 
 Example:
 
@@ -138,12 +138,12 @@ For users running juneogo using [juneogo-docker](https://github.com/Juneo-io/jun
 
 
 
-Your node is now tracking the Supernet you have just created.&#x20;
+Your node is now tracking the MCN you have just created.&#x20;
 
 {% hint style="info" %}
-If **your node** is the only node validating your Supernet - once your node stops validating it, all chains within it will not be able to process transactions.
+If **your node** is the only node validating your MCN - once your node stops validating it, all chains within it will not be able to process transactions.
 
-You would have to re-perform the **Add Supernet Validator** transaction for your Supernet's chains to process transactions again.
+You would have to re-perform the **Add MCN Validator** transaction for your MCN chains to process transactions again.
 {% endhint %}
 
 You may now proceed to the next step: [Deploy a VM](deploy-a-vm.md).

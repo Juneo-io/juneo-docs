@@ -2,15 +2,15 @@
 
 ## The juneo network
 
-* [What is JUNEO](README.md)
+* [What is Juneo Supernet](README.md)
 * [Avalanche foundations](the-juneo-network/avalanche-foundations.md)
-* [JUNEO improvements](the-juneo-network/juneo-improvements.md)
+* [Juneo Supernet improvements](the-juneo-network/juneo-improvements.md)
 * [Join Juneo Mainnet](the-juneo-network/join-the-socotra-testnet-v1.md)
 
 ## Architecture
 
 * [Nodes](architecture/nodes.md)
-* [Supernets](architecture/supernets.md)
+* [Multi-Chain Networks (MCNs)](architecture/supernets.md)
 * [Networks](architecture/networks.md)
 
 ## Build
@@ -19,7 +19,7 @@
 * [Set up and Connect a node manually](build/set-up-and-connect-a-node-manually.md)
 * [Set up and Connect a node using the Install Script](build/set-up-and-connect-a-node.md)
 * [Set Up and Connect a node with Docker](build/set-up-and-connect-a-node-with-docker.md)
-* [Create a Supernet](build/create-a-supernet.md)
+* [Create a Multi-Chain Network](build/create-a-supernet.md)
 * [Deploy a VM](build/deploy-a-vm.md)
 
 ## Maintain

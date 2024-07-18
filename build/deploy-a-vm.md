@@ -1,12 +1,12 @@
 # Deploy a VM
 
-After you have [created your Supernet](create-a-supernet.md), you can deploy a VM on it.
+After you have [created your Multi-Chain Network](create-a-supernet.md), you can deploy a VM on it.
 
 {% hint style="info" %}
-The pre-requisite for this tutorial is that you have already [added a JUNEO validator node](../validate/add-a-validator.md), [created a Supernet](create-a-supernet.md) and [added a Supernet validator](create-a-supernet.md#add-supernet-validator).
+The pre-requisite for this tutorial is that you have already [added a Juneo Supernet validator node](../validate/add-a-validator.md), [created a Multi-Chain Network](create-a-supernet.md) and [added a MCN validator](create-a-supernet.md#add-supernet-validator).
 {% endhint %}
 
-We will be using the example files found in the repository [juneogo-examples](https://github.com/Juneo-io/juneojs-examples) to deploy an supernetevm on our existing Supernet.
+We will be using the example files found in the repository [juneogo-examples](https://github.com/Juneo-io/juneojs-examples) to deploy an EthereumVM on our existing MCN.
 
 {% hint style="info" %}
 Please make sure that you have [Node.JS](https://nodejs.org/en) installed on your system, along with the npm package[ ts-node](https://www.npmjs.com/package/ts-node) (which will be used to execute the sample code provided in JuneoJS).
@@ -33,7 +33,7 @@ const genesisMintAddress: string = '0x44542FD7C3F096aE54Cc07833b1C0Dcf68B7790C' 
 ```
 
 {% hint style="danger" %}
-Never use the same **chainId** value more than once- this can cause unexpected errors for your Supernet chains in the future.
+Never use the same **chainId** value more than once- this can cause unexpected errors for your MCN chains in the future.
 {% endhint %}
 
 {% hint style="info" %}
@@ -60,7 +60,7 @@ Your command line output should resemble the following, indicating that your VM 
 
 ### Indexation of your chain on the explorer
 
-For your chain to be eligible for indexation on the explorer, you will need to disable pruning for your newly created chain, allowing archive node functionality. This is done by creating a `config.json` file on your JUNEO validator node in the location `.juneogo/configs/chains/chainId.`
+For your chain to be eligible for indexation on the explorer, you will need to disable pruning for your newly created chain, allowing archive node functionality. This is done by creating a `config.json` file on your Juneo Supernet validator node in the location `.juneogo/configs/chains/chainId.`
 
 For a chain which has the id of `2LxhUB7z7yxvBkHiiwp8MrALgy7rka3y6MriL2JAeX858wUK5D`, you would execute the following commands from the home directory:
 
@@ -115,13 +115,13 @@ After updating this file, please re-start your node.&#x20;
 
 
 
-The next step is to submit your Supernet and Blockchain data to us for indexation.
+The next step is to submit your MCN and Blockchain data to us for indexation.
 
 {% hint style="info" %}
 Before proceeding with the next step, please perform a few transactions on your chain using MetaMask, such as sending some tokens to any address.
 {% endhint %}
 
-Please submit your Supernet and Blockchain information to us in the following format:
+Please submit your MCN and Blockchain information to us in the following format:
 
 <pre><code><strong>Supernet
 </strong><strong>- Name
@@ -142,7 +142,7 @@ Please submit your Supernet and Blockchain information to us in the following fo
 </code></pre>
 
 {% hint style="info" %}
-Please use unique descriptive names for your Supernet and Blockchain. Avoid names such as "Test Supernet" or "Test Blockchain".
+Please use unique descriptive names for your MCN and Blockchain. Avoid names such as "Test Supernet" or "Test Blockchain".
 {% endhint %}
 
 Example:

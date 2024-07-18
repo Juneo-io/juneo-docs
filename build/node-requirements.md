@@ -1,6 +1,6 @@
 # Node Requirements
 
-The hardware and software requirements for running a Juneo node.
+The hardware and software requirements for running a Juneo Supernet node.
 
 ## Requirements
 

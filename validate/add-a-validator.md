@@ -1,10 +1,12 @@
 ---
-description: How to add your JUNEO node as a validator to the Primary network.
+description: >-
+  How to add your Juneo Supernet node as a validator to the Juneo Primary
+  Network.
 ---
 
 # Add a Node to the Validator Set
 
-After successfully bootstrapping your node, you may add it as a validator on the primary network (after which you may create Supernets and deploy blockchains on them).
+After successfully bootstrapping your node, you may add it as a validator on the primary network (after which you may create Multi-Chain Networks and deploy blockchains on them).
 
 ### Stakes and fees
 
@@ -13,7 +15,7 @@ After successfully bootstrapping your node, you may add it as a validator on the
 * Any delegator staking their funds on your node will pay you the delegation fee, which is 12% of their reward. Delegators can stake no more than x4 of your own stake.
 
 {% hint style="info" %}
-A node cannot be a validator on a Supernet longer than it is a validator on the primary supernet. If you wish to deploy a supernet and add your node as a validator, we recommend staking on the primary supernet for at least 15 days. Once you have staked your tokens, you will be able to deploy a Supernet and add your node as a validator to it for the minimum required validation period.
+A node cannot be a validator on a MCN longer than it is a validator on the Juneo Primary Network. If you wish to deploy a MCN and add your node as a validator, we recommend staking on the Juneo Primary Network for at least 15 days. Once you have staked your tokens, you will be able to deploy a MCN and add your node as a validator to it for the minimum required validation period.
 {% endhint %}
 
 |                        | Mainnet     | Socotra Testnet |

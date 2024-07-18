@@ -12,7 +12,7 @@ Depending on its configuration, a node can be of the following types:
 
 ### **Regular Node**
 
-This node can access blockchain data and propose transactions through RPC calls. However, it is not a validator of the Primary network or any Supernets.
+This node can access blockchain data and propose transactions through RPC calls. However, it is not a validator of the Juneo Primary Network or any Multi-Chain Networks (MCNs).
 
 ### API Node
 
@@ -38,7 +38,7 @@ For more details about the Network Architecture, see the [Juneo Litepaper](https
 
 ### Build
 
-<table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="broken-reference">Set up and Connect a node manually</a></td><td>How to set up and connect to the Socotra Testnet network without the installer script</td><td></td></tr><tr><td><a href="../build/create-a-supernet.md">Create a Supernet</a></td><td>How to create a Supernet on the Socotra Testnet</td><td></td></tr><tr><td><a href="../build/deploy-a-vm.md">Deploy a VM</a></td><td>How to deploy a VM on your Supernet</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="broken-reference">Set up and Connect a node manually</a></td><td>How to set up and connect to the Socotra Testnet network without the installer script</td><td></td></tr><tr><td><a href="../build/create-a-supernet.md">Create a Multi-Chain Network</a></td><td>How to create a MCN on the Socotra Testnet</td><td></td></tr><tr><td><a href="../build/deploy-a-vm.md">Deploy a VM</a></td><td>How to deploy a VM on your MCN</td><td></td></tr></tbody></table>
 
 ### Maintain
 

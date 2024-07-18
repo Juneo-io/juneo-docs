@@ -4,14 +4,14 @@ In the links below you can find all necessary resources to:
 
 * connect a node
 * add a node to the Validator Set
-* create a Supernet
-* deploy a Supernet EVM
+* create a Multi-Chain Network (MCN)
+* deploy an EthereumVM
 * perform transactions on your deployed EVM
 
 {% hint style="info" %}
 After step 1, you will need to get at least 100 JUNE to validate the mainnet . After this, you can proceed with step 2 -[ Add a Node to the Validator Set](../validate/add-a-validator.md).
 
-For Supernet indexation on [mcnscan.io](https://mcnscan.io), please contact us.
+For MCN indexation on [mcnscan.io](https://mcnscan.io), please contact us.
 {% endhint %}
 
 ***
@@ -38,24 +38,24 @@ Videos:
 
 ***
 
-#### 3. Create a Supernet
+#### 3. Create a Multi-Chain Network (MCN)
 
-Documentation: [Create a Supernet](../build/create-a-supernet.md)
+Documentation: [Create a Multi-Chain Network](../build/create-a-supernet.md)
 
 Videos:
 
-* 3.1 [Create a Supernet part 1](https://drive.google.com/file/d/1cTKgiNKUwQxb98Db2NSUiTPj\_hHKdQe2/view?usp=drive\_link)
-* 3.2 [Create a Supernet part 2](https://drive.google.com/file/d/1UTwpyl0YZjFG1SIEUOKOSUTKBHLBLKSD/view?usp=drive\_link)
+* 3.1 [Create a MCN part 1](https://drive.google.com/file/d/1cTKgiNKUwQxb98Db2NSUiTPj\_hHKdQe2/view?usp=drive\_link)
+* 3.2 [Create a MCN part 2](https://drive.google.com/file/d/1UTwpyl0YZjFG1SIEUOKOSUTKBHLBLKSD/view?usp=drive\_link)
 
 ***
 
-#### 4. Deploy a Supernet EVM
+#### 4. Deploy an EthereumVM
 
 Documentation: [Deploy a VM](../build/deploy-a-vm.md)
 
 Videos:
 
-* 4.1 [Deploy a Supernet EVM](https://drive.google.com/file/d/1Vabq9\_LbIxod7Si-xoBuUKte-oWHYpa-/view?usp=drive\_link)
+* 4.1 [Deploy an EVM](https://drive.google.com/file/d/1Vabq9\_LbIxod7Si-xoBuUKte-oWHYpa-/view?usp=drive\_link)
 * 4.2 [Adding your chain to MetaMask part 1](https://drive.google.com/file/d/1CizBJm\_t37fHfJs8yycNUhBd4ZicZxu4/view?usp=drive\_link)
 * 4.3 [Adding your chain to MetaMask part 2](https://drive.google.com/file/d/19v-olLU8gtA4T1tR96qtPqIOcD8mVvc-/view?usp=drive\_link)
 * 4.4 [Performing a transaction using MetaMask](https://drive.google.com/file/d/1piNHiz4wOlKLLKnjABYAhQ1eiGBoojTW/view?usp=drive\_link)

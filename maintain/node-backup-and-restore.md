@@ -2,7 +2,7 @@
 
 It is important to be prepared in the event that your node suffers a failure due to hardware and software issues by having a backup.
 
-However, a node can accumulate a database many Gigabytes in size which can be expensive and time-consuming to backup and restore (but is necessary if you require access to historical data on your node). For most users, it is only essential to back up those files which are uniquely generated for our node. In the case of a Juneo node, these files are files that identify our node in the network (that define our nodeID).
+However, a node can accumulate a database many Gigabytes in size which can be expensive and time-consuming to backup and restore (but is necessary if you require access to historical data on your node). For most users, it is only essential to back up those files which are uniquely generated for our node. In the case of a Juneo Supernet node, these files are files that identify our node in the network (that define our nodeID).
 
 The validation and delegation transactions are stored on the blockchain, so it is not necessary to back these up as they will be restored during the node bootstrapping process.
 
@@ -12,7 +12,7 @@ The validation and delegation transactions are stored on the blockchain, so it i
 If there are more than one nodes running on the network which have the same Node ID, other nodes will randomly communicate with one of these nodes. If this NodeID is that of a validator node, its uptime calculation will be negatively effected which may result in loss of staked rewards. Please make sure that only one node is running with your NodeID.
 {% endhint %}
 
-The NodeID is a unique identifier used to differentiate your node from other nodes in the Juneo network. It is a string formatted such as `NodeID-5mb46qkSBj81k9g9e4VFjGGSbaaSLFRzD`.
+The NodeID is a unique identifier used to differentiate your node from other nodes in the Juneo Supernet network. It is a string formatted such as `NodeID-5mb46qkSBj81k9g9e4VFjGGSbaaSLFRzD`.
 
 The NodeID is identified by two files:
 
@@ -65,7 +65,7 @@ Once executed, this command will create  `juneo_backup` directory in you home di
 
 In order to restore a node from a backup, we need to do the reverse: we need to place `staker.key`, `staker.crt` and `signer.key` we previously backed up to the working direcotry of our node.
 
-First we need to [run a Juneo node](broken-reference), which will create a new NodeID, which we will replace. After the node has successfully installed, we should stop it.
+First we need to [run a Juneo Supernet node](broken-reference), which will create a new NodeID, which we will replace. After the node has successfully installed, we should stop it.
 
 #### To Local Node
 
