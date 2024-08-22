@@ -14,6 +14,9 @@ After successfully bootstrapping your node, you may add it as a validator on the
 * The minimum staking period is 14 days on Mainnet and on Socotra Testnet. The maximum staking period for both networks is 365 days.
 * Any delegator staking their funds on your node will pay you the delegation fee, which is 12% of their reward. Delegators can stake no more than x4 of your own stake.
 
+> [!WARNING]  
+> After Creating a Validator Delegation, you can NOT do a validate tx to the same node again, you are also unable to increase the time or the stake until the end of your validation period.
+
 {% hint style="info" %}
 A node cannot be a validator on a MCN longer than it is a validator on the Juneo Primary Network. If you wish to deploy a MCN and add your node as a validator, we recommend staking on the Juneo Primary Network for at least 15 days. Once you have staked your tokens, you will be able to deploy a MCN and add your node as a validator to it for the minimum required validation period.
 {% endhint %}
