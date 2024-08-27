@@ -14,8 +14,9 @@ After successfully bootstrapping your node, you may add it as a validator on the
 * The minimum staking period is 14 days on Mainnet and on Socotra Testnet. The maximum staking period for both networks is 365 days.
 * Any delegator staking their funds on your node will pay you the delegation fee, which is 12% of their reward. Delegators can stake no more than x4 of your own stake.
 
-> [!WARNING]  
-> After creating a validator delegation, you cannot perform a validation transaction to the same node again. Additionally, you will not be able to extend the duration or increase the stake (if duration is under 14 days) until the end of your validation period.
+{% hint style="danger" %}
+After creating a validator delegation, you cannot perform a validation transaction to the same node again. Additionally, you will not be able to extend the duration or increase the stake (if duration is under 14 days) until the end of your validation period.
+{% endhint %}
 
 {% hint style="info" %}
 A node cannot be a validator on a MCN longer than it is a validator on the Juneo Primary Network. If you wish to deploy a MCN and add your node as a validator, we recommend staking on the Juneo Primary Network for at least 15 days. Once you have staked your tokens, you will be able to deploy a MCN and add your node as a validator to it for the minimum required validation period.
@@ -24,7 +25,7 @@ A node cannot be a validator on a MCN longer than it is a validator on the Juneo
 |                        | Mainnet     | Socotra Testnet |
 | ---------------------- | ----------- | --------------- |
 | Minimum stake          | 100 JUNE    | 1 JUNE          |
-| Maximum stake          | 30,000 JUNE |  1,000,000 JUNE |
+| Maximum stake          | 30,000 JUNE | 1,000,000 JUNE  |
 | Minimum staking period | 14 days     | 14 days         |
 | Maximum staking period | 365 days    | 365 days        |
 
@@ -62,7 +63,7 @@ An active node maintains thousands of live TCP connections, keep this in mind wh
 Having your node's time correctly synchronized is extremely important. Incorrect time synchronization may cause your node to be marked as offline resulting in lost staking rewards.
 {% endhint %}
 
-To enable time synchronization on Linux, please run the the command `timedatectl` in your terminal.&#x20;
+To enable time synchronization on Linux, please run the the command `timedatectl` in your terminal.
 
 If the **NTP service** parameter is set to **no**, then your node't time may get out of sync. Set up time synchronization by running the command:
 
@@ -73,8 +74,6 @@ timedatectl set-ntp on
 Run `timedatectl` again, and the parameter **System clock synchronized** should now be set to **yes.**
 
 For time synchronization on macOS, please follow their [documentation](https://support.apple.com/guide/mac-help/set-the-date-and-time-automatically-mchlp2996/mac).
-
-
 
 ### Adding a validator using the graphic interface
 
@@ -116,7 +115,7 @@ In the mcnwallet, navigate to the **Stake** page, and click on the **Validate** 
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p><a href="https://mcnwallet.io/">https://mcnwallet.io/</a></p></figcaption></figure>
 
-Next, click Validate to add your node to the Validator set.&#x20;
+Next, click Validate to add your node to the Validator set.
 
 \
 After this transaction has been completed, you may navigate to [https://mcnscan.io/validator/validator-list](https://mcnscan.io/validator/validator-list) and enter your nodeID in the search bar, which will show you the status of your node:
