@@ -22,6 +22,10 @@ git clone https://github.com/Juneo-io/juneogo-docker
 
 By default, your node will not accept remote RPC calls. If you would like to enable remote calls to your node, please expose port `9650` in the `docker-compose.yml` file:
 
+{% hint style="warning" %}
+This configuration is only needed if you don't use HTTPS
+{% endhint %}
+
 ```yaml
 ports:
   - 9650:9650 # port for API calls - will enable remote RPC calls to your node (mandatory for Supernet/ Blockchain deployers)
@@ -57,12 +61,52 @@ This will start bootstrapping your node.
 
 To run your node with https, please set up your custom domain to point to your machine's public ip address.
 
-Next, please update the file Caddyfile located in `juneogo-docker/caddy` to contain your domain instead of the sample url.
+Before starting Caddy, ensure you have set up your `.env` file with the necessary Caddy environment variables:
 
-Example:
+```
+CADDY_EMAIL=your-email@example.com
+CADDY_DOMAIN=your-domain.com
+CADDY_USER=your-username
+CADDY_PASSWORD=your-password
+```
+
+To securely export metrics, Caddy is configured to handle metrics endpoints. Metrics are securely exposed behind Caddy. If you want to have an API node, you need to expose `juneogo:9650` without credentials in the Caddyfile.\
+\
+Here is the current config :&#x20;
 
 ```yaml
-juneo.node.com {
+{
+  email {$CADDY_EMAIL}
+}
+
+{$CADDY_DOMAIN} {
+    
+    handle /ext/metrics* {
+        reverse_proxy juneogo:9650
+        basic_auth {
+            {$CADDY_USER} {$CADDY_PASSWORD}
+        }
+    }
+
+    handle /metrics* {
+        reverse_proxy node_exporter:9100
+        basic_auth {
+            {$CADDY_USER} {$CADDY_PASSWORD}
+        }
+    }
+
+    handle {
+        respond "Access Denied" 403
+    }
+}
+
+
+```
+
+You need to update the config by removing the basic authentification and/or by adding theses lines :
+
+```yaml
+{$CADDY_DOMAIN} {
     reverse_proxy juneogo:9650
 }
 ```
