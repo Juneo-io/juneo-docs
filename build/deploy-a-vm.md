@@ -1,12 +1,16 @@
+---
+description: Create your Layer-1 Network and deploy a Virtual Machine
+---
+
 # Deploy a VM
 
-After you have [created your Multi-Chain Network](create-a-supernet.md), you can deploy a VM on it.
+After you have [created your Layer-1 Network](create-a-supernet.md) you can deploy a VM on it.
 
 {% hint style="info" %}
-The pre-requisite for this tutorial is that you have already [added a Juneo Supernet validator node](../validate/add-a-validator.md), [created a Multi-Chain Network](create-a-supernet.md) and [added a MCN validator](create-a-supernet.md#add-supernet-validator).
+The pre-requisite for this tutorial is that you have already [added a Juneo Supernet validator node](../validate/add-a-validator.md), [created a Layer-1 Network](create-a-supernet.md) and [added a](create-a-supernet.md#add-supernet-validator)[ validator](create-a-supernet.md#add-supernet-validator).
 {% endhint %}
 
-We will be using the example files found in the repository [juneogo-examples](https://github.com/Juneo-io/juneojs-examples) to deploy an EthereumVM on our existing MCN.
+We will be using the example files found in the repository [juneogo-examples](https://github.com/Juneo-io/juneojs-examples) to deploy an EthereumVM on our existing Layer-1 Network.
 
 {% hint style="info" %}
 Please make sure that you have [Node.JS](https://nodejs.org/en) installed on your system, along with the npm package[ ts-node](https://www.npmjs.com/package/ts-node) (which will be used to execute the sample code provided in JuneoJS).
@@ -14,7 +18,7 @@ Please make sure that you have [Node.JS](https://nodejs.org/en) installed on you
 
 ### Deploying a VM
 
-Assuming you have followed the [steps for creating a supernet](create-a-supernet.md), you should have the [juneojs-examples](https://github.com/Juneo-io/juneojs-examples) folder available. Open [juneojs-examples](https://github.com/Juneo-io/juneojs-examples) directory in a code editor of your choice, create a .env file from the provided .env.example, and paste your mnemonic phrase in the MNEMONIC variable. Example:
+Assuming you have followed the [steps for creating a Layer-1 Network ](create-a-supernet.md), you should have the [juneojs-examples](https://github.com/Juneo-io/juneojs-examples) folder available. Open [juneojs-examples](https://github.com/Juneo-io/juneojs-examples) directory in a code editor of your choice, create a .env file from the provided .env.example, and paste your mnemonic phrase in the MNEMONIC variable. Example:
 
 ```sh
 MNEMONIC="raven whip pave toy benefit moment twin acid wasp satisfy crash april"
@@ -115,13 +119,13 @@ After updating this file, please re-start your node.&#x20;
 
 
 
-The next step is to submit your MCN and Blockchain data to us for indexation.
+The next step is to submit your Supernet and Blockchain data to us for indexation.
 
 {% hint style="info" %}
 Before proceeding with the next step, please perform a few transactions on your chain using MetaMask, such as sending some tokens to any address.
 {% endhint %}
 
-Please submit your MCN and Blockchain information to us in the following format:
+Please submit your Supernet and Blockchain information to us in the following format:
 
 <pre><code><strong>Supernet
 </strong><strong>- Name
@@ -142,7 +146,7 @@ Please submit your MCN and Blockchain information to us in the following format:
 </code></pre>
 
 {% hint style="info" %}
-Please use unique descriptive names for your MCN and Blockchain. Avoid names such as "Test Supernet" or "Test Blockchain".
+Please use unique descriptive names for your Supernet and Blockchain. Avoid names such as "Test Supernet" or "Test Blockchain".
 {% endhint %}
 
 Example:

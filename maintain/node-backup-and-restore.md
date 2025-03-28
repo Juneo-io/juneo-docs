@@ -1,3 +1,9 @@
+---
+description: >-
+  Ensure node reliability by backing up essential files like nodeID for quick
+  recovery
+---
+
 # Node Backup and Restore
 
 It is important to be prepared in the event that your node suffers a failure due to hardware and software issues by having a backup.
@@ -45,7 +51,7 @@ You will find these files in the `~/.juneogo/staking` directory. Simply select a
 
 #### From Remote Node Using `scp`
 
-`scp` is a 'secure copy' command line program, available built-in on Linux and MacOS computers. There is also a Windows version, `pscp`, as part of the [PuTTY](https://www.chiark.greenend.org.uk/\~sgtatham/putty/latest.html) package. If using `pscp`, in the following commands replace each usage of `scp` with `pscp -scp`.
+`scp` is a 'secure copy' command line program, available built-in on Linux and MacOS computers. There is also a Windows version, `pscp`, as part of the [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) package. If using `pscp`, in the following commands replace each usage of `scp` with `pscp -scp`.
 
 When you have means of remote login into the machine, you can copy the files over with the following command:
 

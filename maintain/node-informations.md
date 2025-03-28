@@ -1,3 +1,9 @@
+---
+description: >-
+  Retrieve and manage your node's unique information, such as nodeID, publicKey,
+  and proofOfPossession
+---
+
 # Node Informations
 
 ## How to get your node informations ?

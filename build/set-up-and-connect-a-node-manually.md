@@ -1,6 +1,8 @@
-# Set up and Connect a node manually
+---
+description: How to set up and connect a node to the Mainnet manually.
+---
 
-How to set up and connect a node to the Mainnet manually.
+# Set up and Connect a node manually
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).

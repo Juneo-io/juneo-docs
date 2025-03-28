@@ -1,18 +1,20 @@
+---
+description: How Juneo Nodes Support the Network
+---
+
 # Nodes
 
 All nodes are set up and connected to the network using pre-compiled [juneogo executable files](https://github.com/Juneo-io/juneogo-binaries). In later stages of the project, the juneogo protocol will be open source.
 
-
+***
 
 ## Node types
 
 Depending on its configuration, a node can be of the following types:
 
-
-
 ### **Regular Node**
 
-This node can access blockchain data and propose transactions through RPC calls. However, it is not a validator of the Juneo Primary Network or any Multi-Chain Networks (MCNs).
+This node can access blockchain data and propose transactions through RPC calls. However, it is not a validator of the Juneo Primary Network or any Layer-1 Network.
 
 ### API Node
 
@@ -32,13 +34,13 @@ A node can be several types simultaneously - an **Archive Node** for one chain i
 
 For more details about the Network Architecture, see the [Juneo Litepaper](https://juneo.com/litepaper) or visit [juneo.com](https://juneo.com/).
 
-
+***
 
 ## Node Operations Reference
 
 ### Build
 
-<table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="broken-reference">Set up and Connect a node manually</a></td><td>How to set up and connect to the Socotra Testnet network without the installer script</td><td></td></tr><tr><td><a href="../build/create-a-supernet.md">Create a Multi-Chain Network</a></td><td>How to create a MCN on the Socotra Testnet</td><td></td></tr><tr><td><a href="../build/deploy-a-vm.md">Deploy a VM</a></td><td>How to deploy a VM on your MCN</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../build/set-up-and-connect-a-node-manually.md">Set up and Connect a node manually</a></td><td>How to set up and connect to the Socotra Testnet network without the installer script</td><td></td></tr><tr><td><a href="../build/create-a-supernet.md">Create a Layer-1 Network</a></td><td>How to create a Layer-1 Network on the Socotra Testnet</td><td></td></tr><tr><td><a href="../build/deploy-a-vm.md">Deploy a VM</a></td><td>How to deploy a VM on your Layer-1 Network</td><td></td></tr></tbody></table>
 
 ### Maintain
 
@@ -48,3 +50,4 @@ For more details about the Network Architecture, see the [Juneo Litepaper](https
 ### Validate
 
 <table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="../validate/add-a-validator.md">Add a node to the Validator set</a></td><td>How to add a node to the Validator Set</td><td></td></tr></tbody></table>
+

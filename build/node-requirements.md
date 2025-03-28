@@ -1,6 +1,8 @@
-# Node Requirements
+---
+description: The hardware and software requirements for running a Juneo Supernet node.
+---
 
-The hardware and software requirements for running a Juneo Supernet node.
+# Node Requirements
 
 ## Requirements
 

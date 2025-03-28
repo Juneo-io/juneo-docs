@@ -1,3 +1,7 @@
+---
+description: Seamlessly transition your node and assets to the mainnet
+---
+
 # Migrate from Socotra Testnet to Juneo Mainnet
 
 {% hint style="warning" %}

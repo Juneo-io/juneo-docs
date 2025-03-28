@@ -1,6 +1,8 @@
-# Set up and Connect a node using the Install Script
+---
+description: How to set up and connect a node to the Mainnet using the installation script.
+---
 
-How to set up and connect a node to the Mainnet using the installation script.
+# Set up and Connect a node using the Install Script
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).

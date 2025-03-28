@@ -1,6 +1,8 @@
-# Set Up and Connect a node with Docker
+---
+description: How to set up and connect a node to the Mainnet using docker.
+---
 
-How to set up and connect a node to the Mainnet using docker.
+# Set Up and Connect a node with Docker
 
 {% hint style="warning" %}
 Before proceeding, please make sure that your machine meets the hardware and software [node requirements](node-requirements.md).

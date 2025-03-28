@@ -2,16 +2,15 @@
 
 ## The juneo network
 
-* [What is Juneo Supernet](README.md)
-* [Avalanche foundations](the-juneo-network/avalanche-foundations.md)
-* [Juneo Supernet improvements](the-juneo-network/juneo-improvements.md)
+* [What is Juneo Supernet ?](README.md)
+* [Avalanche Foundations](the-juneo-network/avalanche-foundations.md)
+* [Key Features](the-juneo-network/juneo-improvements.md)
 * [Join Juneo Mainnet](the-juneo-network/join-the-socotra-testnet-v1.md)
 
 ## Architecture
 
 * [Nodes](architecture/nodes.md)
-* [Multi-Chain Networks (MCNs)](architecture/supernets.md)
-* [Networks](architecture/networks.md)
+* [Supernets](architecture/supernets.md)
 
 ## Build
 
@@ -20,7 +19,7 @@
 * [Set up and Connect a node using the Install Script](build/set-up-and-connect-a-node.md)
 * [Set Up and Connect a node with Docker](build/set-up-and-connect-a-node-with-docker.md)
 * [Advanced Node Configuration](build/nodes.md)
-* [Create a Multi-Chain Network](build/create-a-supernet.md)
+* [Create a Layer-1 Network](build/create-a-supernet.md)
 * [Deploy a VM](build/deploy-a-vm.md)
 
 ## Maintain
@@ -34,3 +33,9 @@
 ## Validate
 
 * [Add a Node to the Validator Set](validate/add-a-validator.md)
+
+## BRIDGE
+
+* [Supernet Bridge](bridge/supernet-bridge.md)
+* [Bridged Tokens](bridge/bridged-tokens.md)
+* [Get Started](bridge/get-started.md)

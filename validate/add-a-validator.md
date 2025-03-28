@@ -1,12 +1,12 @@
 ---
 description: >-
   How to add your Juneo Supernet node as a validator to the Juneo Primary
-  Network.
+  Network
 ---
 
 # Add a Node to the Validator Set
 
-After successfully bootstrapping your node, you may add it as a validator on the primary network (after which you may create Multi-Chain Networks and deploy blockchains on them).
+After successfully bootstrapping your node, you may add it as a validator on the primary network (after which you may create Supernets and deploy blockchains on them).
 
 ### Stakes and fees
 
@@ -19,7 +19,7 @@ After creating a validator delegation, you cannot perform a validation transacti
 {% endhint %}
 
 {% hint style="info" %}
-A node cannot be a validator on a MCN longer than it is a validator on the Juneo Primary Network. If you wish to deploy a MCN and add your node as a validator, we recommend staking on the Juneo Primary Network for at least 15 days. Once you have staked your tokens, you will be able to deploy a MCN and add your node as a validator to it for the minimum required validation period.
+A node cannot be a validator on a Supernet longer than it is a validator on the Juneo Primary Network. If you wish to deploy a Supernet and add your node as a validator, we recommend staking on the Juneo Primary Network for at least 15 days. Once you have staked your tokens, you will be able to deploy a Supernet and add your node as a validator to it for the minimum required validation period.
 {% endhint %}
 
 |                        | Mainnet     | Socotra Testnet |
@@ -113,11 +113,11 @@ Please make sure that you have a balance of at least 100 JUNE in the P-chain, an
 
 In the mcnwallet, navigate to the **Stake** page, and click on the **Validate** card. Enter your `NodeID`, `BLS Key (publicKey)`, and `BLS Signature (proofOfPossession)`. Set the staking amount to 100 JUNE, and the validation period to 14 days. Ensure all information is correctly entered to enable your node for validation.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p><a href="https://mcnwallet.io/">https://mcnwallet.io/</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-03-28 044501.png" alt=""><figcaption><p><a href="https://mcnwallet.io/">https://mcnwallet.io/</a></p></figcaption></figure>
 
 Next, click Validate to add your node to the Validator set.
 
 \
-After this transaction has been completed, you may navigate to [https://mcnscan.io/validator/validator-list](https://mcnscan.io/validator/validator-list) and enter your nodeID in the search bar, which will show you the status of your node:
+After this transaction has been completed, you may navigate to [Validator list - Juneo Scan ](https://juneoscan.io/validator/validator-list)and enter your nodeID in the search bar, which will show you the status of your node:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-03-28 044238.png" alt=""><figcaption></figcaption></figure>
