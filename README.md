@@ -14,8 +14,6 @@ The architecture of Juneo Supernet has been carefully redesigned to include new 
 * **Cost-Efficient & Accessible**\
   &#x20;A globally accessible, low-cost solution for deploying blockchain infrastructure
 
-<figure><img src=".gitbook/assets/juneo-layer-1-network (1).jpg" alt=""><figcaption></figcaption></figure>
-
 
 
 * **Unique Tokenomics & Fee Collection**\

@@ -31,7 +31,6 @@ description: Juneo Supernet Core Features and Advantages
 **✔️ 12 pre-deployed blockchains**
 
 * 12 pre-deployed, fully operational blockchains ready to use
-* Each chain serves a unique purpose: smart contracts, AI, DeFi, gaming, tokenized data, and more
 
 ***
 
@@ -56,7 +55,7 @@ description: Juneo Supernet Core Features and Advantages
 * All chains are automatically indexed and integrated into [**Juneo Scan**](https://juneoscan.io/), the official Juneo explorer
 * Indexation is maintained through **streaming fees** rather than relying on third-party indexers, ensuring real-time, on-chain data availability for dApps and users
 
-
+***
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-03-28 033605.png" alt=""><figcaption><p>Juneo Supernet compared to Avalanche </p></figcaption></figure>
 
