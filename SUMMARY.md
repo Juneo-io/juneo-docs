@@ -19,6 +19,7 @@
 * [Set up and Connect a node manually](build/set-up-and-connect-a-node-manually.md)
 * [Set up and Connect a node using the Install Script](build/set-up-and-connect-a-node.md)
 * [Set Up and Connect a node with Docker](build/set-up-and-connect-a-node-with-docker.md)
+* [Advanced Node Configuration](build/nodes.md)
 * [Create a Multi-Chain Network](build/create-a-supernet.md)
 * [Deploy a VM](build/deploy-a-vm.md)
 
@@ -27,6 +28,7 @@
 * [Node Monitoring](maintain/node-monitoring.md)
 * [Node Backup and Restore](maintain/node-backup-and-restore.md)
 * [Migrate from Socotra Testnet to Juneo Mainnet](maintain/migrate-from-socotra-testnet-to-juneo-mainnet.md)
+* [Update a Node](maintain/migrate-from-socotra-testnet-to-juneo-mainnet-1.md)
 * [Node Informations](maintain/node-informations.md)
 
 ## Validate

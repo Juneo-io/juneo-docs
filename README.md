@@ -13,7 +13,7 @@ The architecture has been redesigned with new functionalities added.
 
 Juneo Supernet makes it possible to create networks of [**Nodes**](broken-reference) called [**Multi-Chain Networks**](broken-reference) **(MCNs)** that allow the creation of as many **blockchains** as needed.
 
-<figure><img src=".gitbook/assets/Platform Chain w BG.png" alt="" width="477"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/juneo-layer-1-network.jpg" alt=""><figcaption></figcaption></figure>
 
 Tests can be carried out on our [**Socotra Testnet**](the-juneo-network/join-the-socotra-testnet-v1.md). \
 The **Mainnet** launch is planned for Q2 2024.

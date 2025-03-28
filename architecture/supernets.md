@@ -12,4 +12,4 @@ Enabling unlimited Blockchain creation that can support a large variety of apps/
 * No more resource sacrifice for scaling, MCNs are  40X more cost efficient in terms of token cost and 200X in terms of USD than other major networks
 * A MCN can create incentives for other builders to join and bring more utilities. It increases competition and supports innovation.
 
-<figure><img src="../.gitbook/assets/Newest_SuperNet_iLL.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/juneo-l1-networks.jpg" alt=""><figcaption></figcaption></figure>
