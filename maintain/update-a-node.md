@@ -71,7 +71,7 @@ chmod +x ~/YOUR-PATH/plugins/jevm
 ### b. Running the node using the Install Script
 
 {% hint style="danger" %}
-Use only this command if you have followed our [Install Script](migrate-from-socotra-testnet-to-juneo-mainnet-1.md#b.-running-the-node-using-the-install-script)
+Use only this command if you have followed our [Install Script](update-a-node.md#b.-running-the-node-using-the-install-script)
 {% endhint %}
 
 Use the following command on your server :&#x20;

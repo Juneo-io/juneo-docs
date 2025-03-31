@@ -27,7 +27,7 @@
 * [Node Monitoring](maintain/node-monitoring.md)
 * [Node Backup and Restore](maintain/node-backup-and-restore.md)
 * [Migrate from Socotra Testnet to Juneo Mainnet](maintain/migrate-from-socotra-testnet-to-juneo-mainnet.md)
-* [Update a Node](maintain/migrate-from-socotra-testnet-to-juneo-mainnet-1.md)
+* [Update a Node](maintain/update-a-node.md)
 * [Node Informations](maintain/node-informations.md)
 
 ## Validate
