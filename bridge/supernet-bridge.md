@@ -15,11 +15,11 @@ This interoperability layer simplifies token transfers between origin and target
 
 ***
 
-<figure><img src="../.gitbook/assets/supernet-bridge (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-04-01 154150.png" alt=""><figcaption></figcaption></figure>
 
 Supernet Bridge is a non-custodial bridging mechanism that facilitates the secure transfer of assets, tokens, and data between independent blockchain networks (origin and target chains). Since networks like Juneo and Ethereum operate with distinct consensus mechanisms and architectures, bridges are essential for enabling seamless interoperability across ecosystems.
 
-Users can seamlessly transfer tokens from **Ethereum (ETH), Base, BNB Chain, Chiliz (CHZ), Polygon (POL), and Avalanche (AVAX)** to the **JUNE-Chain** through a **one-click bridge** available on the [Juneo Portal](https://portal.juneo.com/flashpass)**.** This integration expands cross-chain **liquidity and utility**, unlocking a broader range of **DeFi opportunities**.
+Users can seamlessly transfer tokens from **Ethereum (ETH), Base (ETH), BNB Chain, Chiliz (CHZ), Polygon (POL), Arbitrum (ETH)** **and Avalanche (AVAX)** to the **JUNE-Chain** through a **one-click bridge** available on the [Juneo Portal](https://portal.juneo.com/flashpass)**.** This integration expands cross-chain **liquidity and utility**, unlocking a broader range of **DeFi opportunities**.
 
 ***
 
@@ -46,6 +46,7 @@ Supernet Bridge is accessible through the [Juneo Portal](https://portal.juneo.co
 * Base (ETH)
 * Chiliz (CHZ)
 * Polygon (POL)
+* Arbitrum (ETH)
 
 
 
@@ -72,7 +73,7 @@ Supernet Bridge supports multi-chain interoperability by acting as a gateway bet
 ### How to Use the Supernet Bridge
 
 1. **Visit the**[ **Juneo Portal**](https://portal.juneo.com/flashpass) and access the [Supernet Bridge](https://supernetbridge.io/)
-2. **Connect your wallet** (e.g., MetaMask, Trust Wallet) to the source network (ETH, BASE, BNB, CHZ, POL or AVAX).
+2. **Connect your wallet** (e.g., MetaMask, Trust Wallet) to the source network (ETH, BASE, ARB, BNB, CHZ, POL or AVAX).
 3. **Select the tokens** you wish to bridge and specify the amount.
 4. **Confirm the transaction** to lock the tokens on the source chain.
 5. **Receive the equivalent tokens** minted on the **JUNE-Chain**.

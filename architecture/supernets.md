@@ -10,15 +10,15 @@ description: >-
 
 Juneo's Supernet ecosystem is rapidly evolving, with an increasing number of specialized Supernets being launched to meet the diverse needs of different industries and applications. These Supernets provide tailored environments, ensuring a seamless experience for developers, businesses, and users alike.
 
-<figure><img src="../.gitbook/assets/supernet-bridge (1).jpg" alt=""><figcaption><p>Juneo Supenert Ecosystem</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-04-01 154150.png" alt=""><figcaption><p>Juneo Supenert Ecosystem</p></figcaption></figure>
 
-| Supernet                                                             | Purpose                                                                                         |
-| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Blue Byte1 Supernet**                                              | Optimized for SMEs, offering blockchain solutions for businesses                                |
-| **Banana1 Supernet**                                                 | Dedicated to NFTs, gaming, and meme culture                                                     |
-| **Mojo Sound1, Movie1, Book1 Supernets & StreemDAO** _(coming soon)_ |  Focused on media, entertainment, and digital rights management                                 |
-| **TravelDEX Supernet**                                               | Providing automated blockchain solutions for the travel industry                                |
-| **Vertical AI Supernet**                                             | AI-powered blockchain automation to help SMEs deploy and maintain their own Layer-1 blockchains |
+| Supernet                                              | Purpose                                                                                         |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Blue Byte1 Supernet**                               | Optimized for SMEs, offering blockchain solutions for businesses                                |
+| **Banana1 Supernet**                                  | Dedicated to NFTs, gaming, and meme culture                                                     |
+| **Mojo Sound1, Movie1, Book1 Supernets & StreemDAO**  |  Focused on media, entertainment, and digital rights management                                 |
+| **TravelDEX Supernet**                                | Providing automated blockchain solutions for the travel industry                                |
+| **Vertical AI Supernet**                              | AI-powered blockchain automation to help SMEs deploy and maintain their own Layer-1 blockchains |
 
 ***
 
