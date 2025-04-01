@@ -100,3 +100,49 @@ If it doesn't work you can try to run `git stash` or to clone it again by follow
 By running your node as usual you will now bootsrap the Mainnet.
 
 You can check that your node is bootsrapped through the regular curl request.&#x20;
+
+## 5. Checking Your Node's Version Status <a href="#user-content-4-boostrapping-status" id="user-content-4-boostrapping-status"></a>
+
+You can check the current version of your node by using the following RPC call:
+
+### a. For nodes running manually or via the Install Script:
+
+```bash
+curl -X POST --data '{
+    "jsonrpc":"2.0",
+    "id"     :1,
+    "method" :"info.getNodeVersion"
+}' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
+```
+
+### b. For nodes running with juneogo-docker:
+
+```bash
+curl -X POST --data '{
+    "jsonrpc":"2.0",
+    "id"     :1,
+    "method" :"info.getNodeVersion"
+}' -H 'content-type:application/json;' 192.168.10.2:9650/ext/info
+```
+
+Example Response:
+
+```json
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "version": "juneogo/1.1.0",
+    "databaseVersion": "v1.4.5",
+    "rpcProtocolVersion": "35",
+    "gitCommit": "",
+    "vmVersions": {
+      "jevm": "v1.1.0",
+      "jvm": "v1.1.0",
+      "platform": "v1.1.0",
+      "srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e": "v0.6.4"
+    }
+  },
+  "id": 1
+}
+
+```
