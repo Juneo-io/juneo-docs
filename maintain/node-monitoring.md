@@ -93,6 +93,10 @@ To access Grafana with HTTPS, you need to configure Caddy with your domain name.
 
 ## Configuring Cloudflare
 
+{% hint style="warning" %}
+Ensure that SSL/TLS encryption mode is set to **Full (strict)** when using Cloudflare.
+{% endhint %}
+
 {% hint style="info" %}
 To automatically manage DNS records for your servers using Cloudflare, follow these steps:
 {% endhint %}
