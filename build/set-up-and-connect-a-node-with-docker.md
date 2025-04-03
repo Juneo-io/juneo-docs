@@ -47,6 +47,10 @@ If you want to connect the node to the Socotra testnet, you need to update the `
 
 You may run JuneoGo using http or https.
 
+{% hint style="warning" %}
+Make sure to create a `.env` file before starting the docker-compose.
+{% endhint %}
+
 #### 3.1) Run JuneoGo with HTTP <a href="#user-content-31-run-juneogo-with-http" id="user-content-31-run-juneogo-with-http"></a>
 
 To run your node with http, please open the juneogo-docker directory in your command line and execute:
