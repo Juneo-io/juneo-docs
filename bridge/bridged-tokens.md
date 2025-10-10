@@ -20,7 +20,8 @@ Some tokens have prefixes **m** (mili), **k** (kilo), **w** (wrapped).
 
 Examples:
 
-* mBTC.a
+* mBTC
+* kPEPE
 * wJUNE
 
 #### **Native Tokens: 1**
@@ -48,3 +49,5 @@ Examples:
 **Users must never send funds directly to any Supernet Bridge contract addresses.** \
 \
 The Supernet Bridge should only be used through its official UI, available [here](https://supernetbridge.io/). Funds sent directly to Supernet Bridge contract addresses will be permanently lost and cannot be recovered.
+
+***

@@ -39,3 +39,5 @@
 * [Supernet Bridge](bridge/supernet-bridge.md)
 * [Bridged Tokens](bridge/bridged-tokens.md)
 * [Get Started](bridge/get-started.md)
+* [Copy of Bridging Map](bridge/copy-of-bridging-map.md)
+* [UPDATED Bridging Map](bridge/updated-bridging-map.md)

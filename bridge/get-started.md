@@ -4,15 +4,11 @@ description: Follow this guide to seamlessly bridge your assets using the Supern
 
 # Get Started
 
-### Connect your Wallet
-
 * Open the **Supernet Bridge UI -** [Supernet Bridge](https://supernetbridge.io/)
 * Click **"Connect Wallet"** and choose your preferred wallet (e.g., MetaMask, TrustWallet)
 * Approve the connection request
 
-
-
-<figure><img src="../.gitbook/assets/Screenshot 2025-03-27 160910.png" alt="" width="286"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

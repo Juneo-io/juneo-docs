@@ -131,14 +131,14 @@ Example Response:
 {
   "jsonrpc": "2.0",
   "result": {
-    "version": "juneogo/1.1.0",
+    "version": "juneogo/1.2.0",
     "databaseVersion": "v1.4.5",
     "rpcProtocolVersion": "35",
     "gitCommit": "",
     "vmVersions": {
-      "jevm": "v1.1.0",
-      "jvm": "v1.1.0",
-      "platform": "v1.1.0",
+      "jevm": "v1.2.0",
+      "jvm": "v1.2.0",
+      "platform": "v1.2.0",
       "srEr2XGGtowDVNQ6YgXcdUb16FGknssLTGUFYg7iMqESJ4h8e": "v0.6.4"
     }
   },
