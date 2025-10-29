@@ -87,8 +87,19 @@ Next, paste the following inside the `config.json` file:
 
 ```json
 {
-"pruning-enabled": false,
-  "eth-apis": ["public-eth", "public-eth-filter","net","web3","internal-public-eth","internal-public-blockchain","internal-public-transaction-pool","internal-public-debug","debug-tracer"]
+  "state-sync-enabled": false,
+  "pruning-enabled": false,
+  "eth-apis": [
+    "eth",
+    "eth-filter",
+    "net",
+    "web3",
+    "internal-eth",
+    "internal-blockchain",
+    "internal-transaction",
+    "debug",
+    "debug-tracer"
+  ]
 }
 ```
 
